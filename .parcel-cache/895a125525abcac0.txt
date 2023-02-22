@@ -1,41 +1,44 @@
-12467
+12469
 96C:\Users\ADMIN\Desktop\vingroup\node_modules\jsdom\lib\jsdom\living\nodes\HTMLMapElement-impl.js133211919411321903 0
 60C:\Users\ADMIN\Desktop\vingroup\node_modules\JSONStream\test133211919401014532 1
 73C:\Users\ADMIN\Desktop\vingroup\node_modules\tailwindcss\lib\oxide\cli.js133211919398979533 0
 71C:\Users\ADMIN\Desktop\vingroup\node_modules\browserify-des\.travis.yml133211919385541445 0
-44C:\Users\ADMIN\Desktop\vingroup\package.json133212092011946962 0
+44C:\Users\ADMIN\Desktop\vingroup\package.json133214639603456680 0
 71C:\Users\ADMIN\Desktop\vingroup\node_modules\cssom\lib\CSSStyleSheet.js133211919395576102 0
 74C:\Users\ADMIN\Desktop\vingroup\node_modules\parse5\dist\parser\index.d.ts133211919403686796 0
-42C:\Users\ADMIN\Desktop\vingroup\.gitignore133211094436161057 0
+42C:\Users\ADMIN\Desktop\vingroup\.gitignore133214354340136654 0
 64C:\Users\ADMIN\Desktop\vingroup\node_modules\color-name\index.js133211919385616140 0
 93C:\Users\ADMIN\Desktop\vingroup\node_modules\tailwindcss\lib\lib\evaluateTailwindFunctions.js133211919405952671 0
 68C:\Users\ADMIN\Desktop\vingroup\node_modules\randomfill\package.json133211919384359873 0
 51C:\Users\ADMIN\Desktop\vingroup\src\assets\pictures133211094430891457 1
 65C:\Users\ADMIN\Desktop\vingroup\node_modules\browserify\test\glob133211919415787667 1
 74C:\Users\ADMIN\Desktop\vingroup\node_modules\stream-browserify\.airtap.yml133211919393895170 0
-36C:\Users\ADMIN\Desktop\vingroup\dist133212091471449209 1
+36C:\Users\ADMIN\Desktop\vingroup\dist133214639711854307 1
 70C:\Users\ADMIN\Desktop\vingroup\node_modules\es-abstract\5\TimeClip.js133211919425971876 0
 77C:\Users\ADMIN\Desktop\vingroup\node_modules\es-abstract\2018\ObjectCreate.js133211919421312311 0
 52C:\Users\ADMIN\Desktop\vingroup\node_modules\timsort133211919391996931 1
+65C:\Users\ADMIN\Desktop\vingroup\node_modules\yaml\types\binary.js133211919387722145 0
+65C:\Users\ADMIN\Desktop\vingroup\node_modules\prelude-ls\README.md133211919385432167 0
+42C:\Users\ADMIN\Desktop\vingroup\.postcssrc133212535647143920 0
 66C:\Users\ADMIN\Desktop\vingroup\node_modules\public-encrypt\mgf.js133211919390322290 0
 83C:\Users\ADMIN\Desktop\vingroup\node_modules\terser\node_modules\commander\index.js133211919386335106 0
 77C:\Users\ADMIN\Desktop\vingroup\node_modules\es-abstract\2022\ToUint8Clamp.js133211919428274478 0
 57C:\Users\ADMIN\Desktop\vingroup\node_modules\browser-pack133211919395519364 1
 88C:\Users\ADMIN\Desktop\vingroup\node_modules\htmlparser2\node_modules\entities\readme.md133211919397819736 0
 60C:\Users\ADMIN\Desktop\vingroup\node_modules\xtend\README.md133211919390322290 0
-49C:\Users\ADMIN\Desktop\vingroup\package-lock.json133211919436117718 0
+49C:\Users\ADMIN\Desktop\vingroup\package-lock.json133214625830467472 0
 82C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\transformer-babel\src\flow.js133211919394982803 0
 60C:\Users\ADMIN\Desktop\vingroup\node_modules\xxhash-wasm\esm133211919390946021 1
 83C:\Users\ADMIN\Desktop\vingroup\node_modules\es-abstract\2016\ValidateTypedArray.js133211919429088038 0
 71C:\Users\ADMIN\Desktop\vingroup\node_modules\normalize-package-data\lib133211919393870058 1
 71C:\Users\ADMIN\Desktop\vingroup\node_modules\resolve\test\pathfilter.js133211919405477929 0
-57C:\Users\ADMIN\Desktop\vingroup\src\assets\scss\main.scss133211902523112622 0
+57C:\Users\ADMIN\Desktop\vingroup\src\assets\scss\main.scss133214637389349519 0
 99C:\Users\ADMIN\Desktop\vingroup\node_modules\source-map-support\node_modules\source-map\lib\util.js133211919395576102 0
 75C:\Users\ADMIN\Desktop\vingroup\node_modules\npm-run-all\lib\spawn-win32.js133211919399847275 0
 77C:\Users\ADMIN\Desktop\vingroup\node_modules\@jridgewell\set-array\dist\types133211919391996931 1
 101C:\Users\ADMIN\Desktop\vingroup\node_modules\jsdom\lib\jsdom\living\nodes\HTMLTableColElement-impl.js133211919412793197 0
 65C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\packager-svg133211919388506490 1
-44C:\Users\ADMIN\Desktop\vingroup\node_modules133211919436535710 1
+44C:\Users\ADMIN\Desktop\vingroup\node_modules133214625829470906 1
 77C:\Users\ADMIN\Desktop\vingroup\node_modules\module-deps\example\files\xyz.js133211919407421661 0
 49C:\Users\ADMIN\Desktop\vingroup\node_modules\abab133211919391114576 1
 85C:\Users\ADMIN\Desktop\vingroup\node_modules\es-abstract\2020\BigInt\sameValueZero.js133211919423580174 0
@@ -46,7 +49,7 @@
 71C:\Users\ADMIN\Desktop\vingroup\node_modules\hmac-drbg\lib\hmac-drbg.js133211919389636752 0
 63C:\Users\ADMIN\Desktop\vingroup\node_modules\through2\README.md133211919387083555 0
 89C:\Users\ADMIN\Desktop\vingroup\node_modules\jsdom\lib\jsdom\living\crypto\Crypto-impl.js133211919402469998 0
-35C:\Users\ADMIN\Desktop\vingroup\src133211922430071381 1
+35C:\Users\ADMIN\Desktop\vingroup\src133214353246552357 1
 90C:\Users\ADMIN\Desktop\vingroup\node_modules\css-tree\node_modules\source-map\package.json133211919384540903 0
 70C:\Users\ADMIN\Desktop\vingroup\node_modules\syntax-error\test\run2.js133211919394843095 0
 66C:\Users\ADMIN\Desktop\vingroup\node_modules\css-tree\package.json133211919408721224 0
@@ -60,7 +63,7 @@
 74C:\Users\ADMIN\Desktop\vingroup\node_modules\xmlchars\xmlns\1.0\ed3.js.map133211919393895170 0
 77C:\Users\ADMIN\Desktop\vingroup\node_modules\css-tree\node_modules\source-map133211919396580893 1
 53C:\Users\ADMIN\Desktop\vingroup\node_modules\css-tree133211919408873249 1
-63C:\Users\ADMIN\Desktop\vingroup\node_modules\.package-lock.json133211919436535710 0
+63C:\Users\ADMIN\Desktop\vingroup\node_modules\.package-lock.json133214625830918790 0
 105C:\Users\ADMIN\Desktop\vingroup\node_modules\css-tree\node_modules\source-map\lib\source-map-generator.js133211919394797514 0
 77C:\Users\ADMIN\Desktop\vingroup\node_modules\resolve\test\resolver\other_path133211919405952671 1
 101C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\package-manager\test\fixtures\packages\peers-2.0133211919402082010 1
@@ -82,12 +85,12 @@
 70C:\Users\ADMIN\Desktop\vingroup\node_modules\domhandler\lib\index.d.ts133211919392314264 0
 64C:\Users\ADMIN\Desktop\vingroup\node_modules\yaml\parse-cst.d.ts133211919403217918 0
 78C:\Users\ADMIN\Desktop\vingroup\node_modules\module-deps\test\cache_persistent133211919400109651 1
-50C:\Users\ADMIN\Desktop\vingroup\tailwind.config.js133211094430750315 0
+50C:\Users\ADMIN\Desktop\vingroup\tailwind.config.js133212101824633653 0
 81C:\Users\ADMIN\Desktop\vingroup\node_modules\node-addon-api\napi-inl.deprecated.h133211919390119758 0
 74C:\Users\ADMIN\Desktop\vingroup\node_modules\es-abstract\2015\IsPromise.js133211919418524964 0
 60C:\Users\ADMIN\Desktop\vingroup\node_modules\brace-expansion133211919387722145 1
 56C:\Users\ADMIN\Desktop\vingroup\node_modules\is-callable133211919393262988 1
-45C:\Users\ADMIN\Desktop\vingroup\src\input.css133211094431241369 0
+45C:\Users\ADMIN\Desktop\vingroup\src\input.css133212097828241506 0
 114C:\Users\ADMIN\Desktop\vingroup\node_modules\source-map-support\node_modules\source-map\lib\source-map-consumer.js133211919394372889 0
 66C:\Users\ADMIN\Desktop\vingroup\node_modules\es-abstract\es2016.js133211919414060825 0
 83C:\Users\ADMIN\Desktop\vingroup\node_modules\es-abstract\helpers\getInferredName.js133211919414987764 0
@@ -101,7 +104,7 @@
 67C:\Users\ADMIN\Desktop\vingroup\node_modules\util-deprecate\LICENSE133211919386860986 0
 81C:\Users\ADMIN\Desktop\vingroup\node_modules\supports-preserve-symlinks-flag\test133211919390167631 1
 70C:\Users\ADMIN\Desktop\vingroup\node_modules\module-deps\test\tr_write133211919405002481 1
-46C:\Users\ADMIN\Desktop\vingroup\src\index.html133211922430071381 0
+46C:\Users\ADMIN\Desktop\vingroup\src\index.html133214353246552357 0
 72C:\Users\ADMIN\Desktop\vingroup\node_modules\hash.js\lib\hash\sha\512.js133211919395698541 0
 66C:\Users\ADMIN\Desktop\vingroup\node_modules\tailwindcss\lib\oxide133211919411165449 1
 52C:\Users\ADMIN\Desktop\vingroup\node_modules\is-glob133211919387890747 1
@@ -110,7 +113,7 @@
 66C:\Users\ADMIN\Desktop\vingroup\node_modules\escodegen\LICENSE.BSD133211919384293639 0
 66C:\Users\ADMIN\Desktop\vingroup\node_modules\read-pkg\package.json133211919384221159 0
 64C:\Users\ADMIN\Desktop\vingroup\node_modules\yaml\browser\seq.js133211919400807049 0
-54C:\Users\ADMIN\Desktop\vingroup\dist\index.e5ac7667.js133211934226989435 0
+54C:\Users\ADMIN\Desktop\vingroup\dist\index.e5ac7667.js133212673281139775 0
 85C:\Users\ADMIN\Desktop\vingroup\node_modules\es-abstract\2022\UTF16EncodeCodePoint.js133211919428818278 0
 73C:\Users\ADMIN\Desktop\vingroup\node_modules\es-abstract\2020\MakeTime.js133211919420261294 0
 68C:\Users\ADMIN\Desktop\vingroup\node_modules\resolve\readme.markdown133211919407527482 0
@@ -126,7 +129,7 @@
 76C:\Users\ADMIN\Desktop\vingroup\node_modules\parse5\dist\common\unicode.d.ts133211919405174253 0
 51C:\Users\ADMIN\Desktop\vingroup\node_modules\stable133211919388910544 1
 56C:\Users\ADMIN\Desktop\vingroup\node_modules\@jridgewell133211919366311620 1
-47C:\Users\ADMIN\Desktop\vingroup\src\assets\scss133211902523133355 1
+47C:\Users\ADMIN\Desktop\vingroup\src\assets\scss133214341066875138 1
 62C:\Users\ADMIN\Desktop\vingroup\node_modules\lines-and-columns133211919388141802 1
 42C:\Users\ADMIN\Desktop\vingroup\src\assets133211094430885001 1
 62C:\Users\ADMIN\Desktop\vingroup\node_modules\nanoid\non-secure133211919398268108 1
@@ -149,7 +152,7 @@
 71C:\Users\ADMIN\Desktop\vingroup\node_modules\svgo\plugins\cleanupIDs.js133211919394559191 0
 77C:\Users\ADMIN\Desktop\vingroup\node_modules\fast-glob\out\providers\matchers133211919401686936 1
 76C:\Users\ADMIN\Desktop\vingroup\node_modules\caniuse-lite\data\regions\LC.js133211919416746898 0
-45C:\Users\ADMIN\Desktop\vingroup\src\assets\js133211924710285180 1
+45C:\Users\ADMIN\Desktop\vingroup\src\assets\js133214340264152690 1
 88C:\Users\ADMIN\Desktop\vingroup\node_modules\type-fest\source\union-to-intersection.d.ts133211919400963387 0
 71C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\core\src\Parcel.js133211919406750463 0
 83C:\Users\ADMIN\Desktop\vingroup\node_modules\svgo\plugins\convertEllipseToCircle.js133211919397280059 0
@@ -207,7 +210,7 @@
 72C:\Users\ADMIN\Desktop\vingroup\node_modules\jquery\external\sizzle\dist133211919408963724 1
 81C:\Users\ADMIN\Desktop\vingroup\node_modules\jquery\src\deferred\exceptionHook.js133211919401431105 0
 91C:\Users\ADMIN\Desktop\vingroup\node_modules\jsdom\lib\jsdom\living\generated\TreeWalker.js133211919416846305 0
-53C:\Users\ADMIN\Desktop\vingroup\src\assets\js\main.js133211924710285180 0
+53C:\Users\ADMIN\Desktop\vingroup\src\assets\js\main.js133214340264152690 0
 83C:\Users\ADMIN\Desktop\vingroup\node_modules\jquery\src\var\ObjectFunctionString.js133211919405477929 0
 85C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\watcher\src\windows\win_utils.cc133211919395951326 0
 80C:\Users\ADMIN\Desktop\vingroup\node_modules\type-fest\source\literal-union.d.ts133211919397631015 0
@@ -237,7 +240,7 @@
 70C:\Users\ADMIN\Desktop\vingroup\node_modules\csso\lib\replace\color.js133211919396107745 0
 81C:\Users\ADMIN\Desktop\vingroup\node_modules\@swc\helpers\lib\_read_only_error.js133211919403818666 0
 65C:\Users\ADMIN\Desktop\vingroup\node_modules\pako\lib\zlib\README133211919386472017 0
-50C:\Users\ADMIN\Desktop\vingroup\node_modules\@lmdb133211919435162310 1
+50C:\Users\ADMIN\Desktop\vingroup\node_modules\@lmdb133214625829485015 1
 56C:\Users\ADMIN\Desktop\vingroup\node_modules\buffer-from133211919387879716 1
 88C:\Users\ADMIN\Desktop\vingroup\node_modules\es-abstract\2016\CreateListFromArrayLike.js133211919411321903 0
 65C:\Users\ADMIN\Desktop\vingroup\node_modules\tough-cookie\LICENSE133211919384293639 0
@@ -267,7 +270,7 @@
 52C:\Users\ADMIN\Desktop\vingroup\node_modules\brorand133211919388782895 1
 86C:\Users\ADMIN\Desktop\vingroup\node_modules\acorn-globals\node_modules\.bin\acorn.cmd133211919430256790 0
 69C:\Users\ADMIN\Desktop\vingroup\node_modules\yaml\dist\test-events.js133211919401236900 0
-62C:\Users\ADMIN\Desktop\vingroup\node_modules\@msgpackr-extract133211919435162310 1
+62C:\Users\ADMIN\Desktop\vingroup\node_modules\@msgpackr-extract133214625829470906 1
 77C:\Users\ADMIN\Desktop\vingroup\node_modules\read-only-stream\example\main.js133211919389652351 0
 63C:\Users\ADMIN\Desktop\vingroup\node_modules\es-set-tostringtag133211919391055736 1
 90C:\Users\ADMIN\Desktop\vingroup\node_modules\parse5\dist\parser\formatting-element-list.js133211919395951326 0
@@ -1464,11 +1467,11 @@
 77C:\Users\ADMIN\Desktop\vingroup\node_modules\type-fest\source\promisable.d.ts133211919399329513 0
 75C:\Users\ADMIN\Desktop\vingroup\node_modules\process-nextick-args\readme.md133211919388080164 0
 49C:\Users\ADMIN\Desktop\vingroup\node_modules\pako133211919400829563 1
-70C:\Users\ADMIN\Desktop\vingroup\node_modules\lmdb\dependencies\lz4\lib133211919408973859 1
-51C:\Users\ADMIN\Desktop\vingroup\node_modules\parcel133211919392409734 1
 87C:\Users\ADMIN\Desktop\vingroup\node_modules\browserify\node_modules\assert\.travis.yml133211919386121882 0
 66C:\Users\ADMIN\Desktop\vingroup\node_modules\read-pkg\node_modules133211919366344840 1
 61C:\Users\ADMIN\Desktop\vingroup\node_modules\xmlchars\xml\1.1133211919395698541 1
+70C:\Users\ADMIN\Desktop\vingroup\node_modules\lmdb\dependencies\lz4\lib133211919408973859 1
+51C:\Users\ADMIN\Desktop\vingroup\node_modules\parcel133211919392409734 1
 100C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\node-resolver-core\test\fixture\packages\source133211919408272787 1
 65C:\Users\ADMIN\Desktop\vingroup\node_modules\parse-json\readme.md133211919388122118 0
 79C:\Users\ADMIN\Desktop\vingroup\node_modules\fast-safe-stringify\test-stable.js133211919388472234 0
@@ -1976,7 +1979,6 @@
 65C:\Users\ADMIN\Desktop\vingroup\node_modules\is-nan\test\index.js133211919392116105 0
 79C:\Users\ADMIN\Desktop\vingroup\node_modules\es-abstract\2022\IsLooselyEqual.js133211919418377592 0
 58C:\Users\ADMIN\Desktop\vingroup\node_modules\yaml\util.mjs133211919403055430 0
-65C:\Users\ADMIN\Desktop\vingroup\node_modules\yaml\types\binary.js133211919387722145 0
 75C:\Users\ADMIN\Desktop\vingroup\node_modules\yaml\dist\Document-9b4560a1.js133211919389568499 0
 89C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\transformer-postcss\src\constants.js133211919387561364 0
 63C:\Users\ADMIN\Desktop\vingroup\node_modules\yaml\dist\index.js133211919393175148 0
@@ -3257,6 +3259,7 @@
 75C:\Users\ADMIN\Desktop\vingroup\node_modules\nth-check\lib\compile.d.ts.map133211919393464886 0
 69C:\Users\ADMIN\Desktop\vingroup\node_modules\tailwindcss\variants.css133211919395114974 0
 99C:\Users\ADMIN\Desktop\vingroup\node_modules\jsdom\lib\jsdom\living\navigator\MimeTypeArray-impl.js133211919413935704 0
+57C:\Users\ADMIN\Desktop\vingroup\dist\vingroup.59712999.js133214347641585701 0
 68C:\Users\ADMIN\Desktop\vingroup\node_modules\queue-microtask\LICENSE133211919383905167 0
 97C:\Users\ADMIN\Desktop\vingroup\node_modules\@popperjs\core\dist\esm\modifiers\preventOverflow.js133211919412590504 0
 64C:\Users\ADMIN\Desktop\vingroup\node_modules\postcss-js\async.js133211919385296476 0
@@ -5047,7 +5050,6 @@
 72C:\Users\ADMIN\Desktop\vingroup\node_modules\node-gyp-build\package.json133211919391162939 0
 81C:\Users\ADMIN\Desktop\vingroup\node_modules\es-abstract\2022\Number\leftShift.js133211919419798973 0
 59C:\Users\ADMIN\Desktop\vingroup\node_modules\prelude-ls\lib133211919393464886 1
-65C:\Users\ADMIN\Desktop\vingroup\node_modules\prelude-ls\README.md133211919385432167 0
 82C:\Users\ADMIN\Desktop\vingroup\node_modules\diffie-hellman\node_modules\bn.js\lib133211919386051692 1
 67C:\Users\ADMIN\Desktop\vingroup\node_modules\prelude-ls\lib\Func.js133211919389587774 0
 70C:\Users\ADMIN\Desktop\vingroup\node_modules\lightningcss\package.json133211919394293692 0
@@ -5216,7 +5218,7 @@
 63C:\Users\ADMIN\Desktop\vingroup\node_modules\postcss-import\lib133211919391779783 1
 87C:\Users\ADMIN\Desktop\vingroup\node_modules\@popperjs\core\dist\esm\modifiers\index.js133211919412534226 0
 67C:\Users\ADMIN\Desktop\vingroup\node_modules\postcss-import\LICENSE133211919383905167 0
-47C:\Users\ADMIN\Desktop\vingroup\dist\index.html133211934226612604 0
+47C:\Users\ADMIN\Desktop\vingroup\dist\index.html133214639711844366 0
 96C:\Users\ADMIN\Desktop\vingroup\node_modules\jsdom\lib\jsdom\living\nodes\HTMLPreElement-impl.js133211919412269044 0
 94C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\transformer-svg\test\parseFuncIRI.test.js133211919391055736 0
 100C:\Users\ADMIN\Desktop\vingroup\node_modules\jsdom\lib\jsdom\living\generated\HTMLOptGroupElement.js133211919411900351 0
@@ -7725,7 +7727,6 @@
 75C:\Users\ADMIN\Desktop\vingroup\node_modules\escape-string-regexp\readme.md133211919387890747 0
 68C:\Users\ADMIN\Desktop\vingroup\node_modules\es-abstract\2019\min.js133211919420456313 0
 71C:\Users\ADMIN\Desktop\vingroup\node_modules\htmlnano\docs\package.json133211919402082010 0
-47C:\Users\ADMIN\Desktop\vingroup\dist\output.css133211916640155520 0
 87C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\core\test\fixtures\invalid-targets133211919410541020 1
 82C:\Users\ADMIN\Desktop\vingroup\node_modules\es-abstract\2021\SetIntegrityLevel.js133211919424166714 0
 70C:\Users\ADMIN\Desktop\vingroup\node_modules\htmlnano\docs\sidebars.js133211919399774262 0
@@ -9994,7 +9995,6 @@
 76C:\Users\ADMIN\Desktop\vingroup\node_modules\caniuse-lite\data\regions\IN.js133211919415502179 0
 74C:\Users\ADMIN\Desktop\vingroup\node_modules\bootstrap\js\src\offcanvas.js133211919406122246 0
 76C:\Users\ADMIN\Desktop\vingroup\node_modules\caniuse-lite\data\regions\IQ.js133211919415962526 0
-44C:\Users\ADMIN\Desktop\vingroup\dist\main.js133212091471449209 0
 76C:\Users\ADMIN\Desktop\vingroup\node_modules\caniuse-lite\data\regions\IR.js133211919415962526 0
 76C:\Users\ADMIN\Desktop\vingroup\node_modules\caniuse-lite\data\regions\IS.js133211919416067672 0
 81C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\watcher\src\watchman\BSER.cc133211919390322290 0
@@ -11912,7 +11912,6 @@
 97C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\runtime-js\lib\helpers\browser\css-loader.js133211919393663528 0
 98C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\runtime-js\lib\helpers\browser\html-loader.js133211919396762056 0
 96C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\runtime-js\lib\helpers\browser\js-loader.js133211919398157216 0
-50C:\Users\ADMIN\Desktop\vingroup\dist\bootstrap.css133211916936029724 0
 76C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\codeframe\test\fixtures133211919386283152 1
 102C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\runtime-js\lib\helpers\browser\prefetch-loader.js133211919400154955 0
 80C:\Users\ADMIN\Desktop\vingroup\node_modules\@parcel\runtime-browser-hmr\LICENSE133211919384169039 0
@@ -12465,4 +12464,7 @@
 55C:\Users\ADMIN\Desktop\vingroup\node_modules\.bin\which133211919430390597 0
 59C:\Users\ADMIN\Desktop\vingroup\node_modules\.bin\which.cmd133211919430390597 0
 59C:\Users\ADMIN\Desktop\vingroup\node_modules\.bin\which.ps1133211919430390597 0
-58C:\Users\ADMIN\Desktop\vingroup\dist\index.e5ac7667.js.map133211934227090127 0
+55C:\Users\ADMIN\Desktop\vingroup\dist\index.4717fcfd.css133212673280315723 0
+59C:\Users\ADMIN\Desktop\vingroup\dist\index.4717fcfd.css.map133212673280527143 0
+58C:\Users\ADMIN\Desktop\vingroup\dist\index.e5ac7667.js.map133212673281261728 0
+61C:\Users\ADMIN\Desktop\vingroup\dist\vingroup.59712999.js.map133214347641751148 0

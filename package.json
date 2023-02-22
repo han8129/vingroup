@@ -2,9 +2,8 @@
   "name": "vingroup",
   "version": "1.0.0",
   "source": "src/index.html",
-  "main": "index.js",
   "scripts": {
-    "parcel": "parcel src/index.html",
+    "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
   "author": "",
@@ -19,6 +18,7 @@
     "tailwindcss": "^3.2.6"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
     "browserify": "^17.0.0",
     "jquery": "^3.6.3",
