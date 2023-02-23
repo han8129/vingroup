@@ -1,38 +1,103 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Bootstrap demo</title>
-	</head>
-	<body>
-		<header>
-			The first box
-		</header>
-		<nav class="flex">
-			<div class="flex-none mx-0.5">
-				Burger
-			</div>
-			<div class="flex-none mx-auto">
-				Icon
-			</div>
-			<div class="flex-none mx-0.5">
-				Magnifying Glass
-			</div>
-		</nav>
 
-		<section class="">
-			<img src=".\assets\pictures\Landmark81banner.jpg" class="img-thumbnail" alt="">
-			<main class="contairer">
-				<h1>
-					Tin tức sự kiện
-				</h1>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap demo</title>
+</head>
 
-				<article>
-					Some cool paragraphs
-				</article>
-			</main>
-		</section>
-		<script type="module" src="./assets/js/main.js"></script>
-	</body>
+<body>
+	<header class="container">
+		The first box
+	</header>
+
+	<nav class="flex container">
+		<div class="flex-none mx-0.5">
+			Burger
+		</div>
+		<div class="flex-none mx-auto">
+			Icon
+		</div>
+		<div class="flex-none mx-0.5">
+			Magnifying Glass
+		</div>
+	</nav>
+
+	<section class="container">
+		<img src=".\assets\pictures\Landmark81banner.jpg" class="img-thumbnail" alt="">
+
+		<main class="flex flex-col items-center">
+			<h1>
+				Some cool article
+			</h1>
+
+			<section class="flex flex-col">
+				<div class="flex-none flex-col my-3">
+								<img src="#" alt="A vingroup item">
+
+                <h2>Description about the item</h2>
+
+                <p class="font-light text-slate-400">date</p>
+				</div>
+				<div class="flex-none flex-col my-3">
+								<img src="#" alt="A vingroup item">
+
+                <h2>Description about the item</h2>
+
+                <p class="font-light text-slate-400">date</p>
+				</div>
+				<div class="flex-none flex-col my-3">
+								<img src="#" alt="A vingroup item">
+
+                <h2>Description about the item</h2>
+
+                <p class="font-light text-slate-400">date</p>
+				</div>
+        <button type="button" class="btn btn-gray text-start">XEM TẤT CẢ -></button>
+			</section>
+
+		</main>
+
+    <article class="flex flex-col">
+      <h1 class="flex-none my-3">More Heading</h1>
+
+      <div class="text-slate-400">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam eius illo cum neque saepe corporis ipsam est pariatur mollitia aut.
+      </div>
+    </article>
+
+        <section class="flex overflow-scroll">
+            <article class="flex-none my-3">
+                <p>Some cool icon</p>
+
+                <h1 class="text-red-500 font-bold">Card Title</h1>
+
+                <img src="#" alt="Card's image">
+            </article>
+
+            <article class="flex-none my-3">
+                <p>Some cool icon</p>
+
+                <h1 class="text-red-500 font-bold">Card Title</h1>
+
+                <img src="#" alt="Card's image">
+            </article>
+
+            <article class="flex-none my-3">
+                <p>Some cool icon</p>
+
+                <h1 class="text-red-500 font-bold">Card Title</h1>
+
+                <img src="#" alt="Card's image">
+            </article>
+        </section>
+	</section>
+
+  <footer class="my-8 container">
+    More stuff
+  </footer>
+	<script type="module" src="./assets/js/main.js"></script>
+</body>
+
 </html>
