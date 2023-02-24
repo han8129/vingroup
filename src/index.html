@@ -7,24 +7,24 @@
 	<title>Bootstrap demo</title>
 </head>
 
-<body>
+<body class="flex flex-col gap-2">
 	<header class="container bg-sky-500/50">
-		The first box
-	</header>
-
-	<nav class="flex container bg-green-500/50">
+	<nav class="flex container">
 		<div class="flex-none">
 			Burger
 		</div>
+
 		<div class="flex-none mx-auto">
 			Icon
 		</div>
+
 		<div class="flex-none">
 			Magnifying Glass
 		</div>
 	</nav>
+	</header>
 
-	<main class="container">
+	<main class="flex flex-col gap-2 container bg-green-400/50">
 		<img src=".\assets\pictures\Landmark81banner.jpg" class="img-thumbnail" alt="">
 
 		<section class="flex flex-col items-center bg-orange-400/50">
@@ -34,21 +34,7 @@
 
 			<section class="flex flex-col">
 				<article class="flex-none flex-col my-3">
-					<img src="#" alt="A vingroup item">
-
-					<h2>Description about the item</h2>
-
-					<p class="font-light text-slate-400">date</p>
-				</article>
-				<article class="flex-none flex-col my-3">
-					<img src="#" alt="A vingroup item">
-
-					<h2>Description about the item</h2>
-
-					<p class="font-light text-slate-400">date</p>
-				</article>
-				<article class="flex-none flex-col my-3">
-					<img src="#" alt="A vingroup item">
+					<img class="img-thumbnail" src="./assets/pictures/random_doctor.jpg" alt="A vingroup item">
 
 					<h2>Description about the item</h2>
 
@@ -95,7 +81,7 @@
 		</section>
 	</main>
 
-	<footer class="my-8 container">
+	<footer class="container bg-yellow-400/50">
 		More link
 	</footer>
 	<script type="module" src="./assets/js/main.js"></script>
