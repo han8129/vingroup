@@ -31,5 +31,6 @@
     "url": "https://github.com/han8129/vingroup.net/issues"
   },
   "homepage": "https://github.com/han8129/vingroup.net#readme",
+  "main": "tailwind.config.js",
   "description": ""
 }
