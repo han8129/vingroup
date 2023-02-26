@@ -1,2 +1,6 @@
 @use 'variable';
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.custom-card_image{
+				min-width: 10rem;
+}
