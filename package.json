@@ -4,7 +4,9 @@
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+	"sass" : "sass src/assets/scss/main.scss src/compiled_styles/index.css --watch",
+	"tailwindcss" : "tailwindcss -i ./src/assets/scss/tailwindcss.scss -o ./src/compiled_styles/tailwindcss.css --watch"
   },
   "author": "",
   "license": "ISC",
@@ -32,7 +34,6 @@
     "url": "https://github.com/han8129/vingroup.net/issues"
   },
   "homepage": "https://github.com/han8129/vingroup.net#readme",
-  "main": "tailwind.config.js",
   "keywords": [],
   "description": ""
 }

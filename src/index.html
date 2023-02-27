@@ -5,21 +5,25 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bootstrap demo</title>
+	<style>
+		@import url("compiled_styles/index.css")
+		@import url("compiled_styles/tailwindcss.css.css")
+	</style>
 </head>
 
 <body class="flex flex-col gap-2">
 	<header class="container bg-green-400/50">
-	<nav class="flex my-3 items-center">
-		<div class="flex-none">
-			<i class="fa-solid fa-burger text-3xl"></i>
-		</div>
+		<nav class="flex my-3 items-center">
+			<div class="flex-none">
+				<i class="fa-solid fa-burger text-3xl"></i>
+			</div>
 
 			<img class="flex-none mx-auto w-12" src="./assets/pictures/logo.png" alt="generic vingroup logo">
 
-		<div class="flex-none mt-1">
-			<i class="fa-solid fa-magnifying-glass text-3xl"></i>
-		</div>
-	</nav>
+			<div class="flex-none mt-1">
+				<i class="fa-solid fa-magnifying-glass text-3xl"></i>
+			</div>
+		</nav>
 	</header>
 
 	<main class="flex flex-col gap-2 container">
@@ -74,12 +78,12 @@
 			</p>
 
 			<section class="flex overflow-scroll gap-x-5">
-					<article class="custom-card_image flex flex-col my-3 bg-sky-500/50">
+					<article class="custom-card_image flex flex-col my-3 bg-sky-500/50 border-t-4 border-red-400">
 							<div class="flex flex-row items-center gap-2 my-2">
-									<i class="fa-solid fa-city"></i>
+									<i class="text-4xl fa-solid fa-city"></i>
 
-									<div class="flex-grow invisible -m-3 border-solid border-b-2 border-black bg-red-400">
-											<span>shnts</span>
+									<div class="flex-grow border-b-2 border-black bg-red-400">
+											<span>boiler</span>
 									</div>
 							</div>
 
