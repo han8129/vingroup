@@ -1,6 +1,0 @@
-node_modules/
-dist/
-steps.md
-.parcel-cache/
-package-lock.json
-.gitignore
