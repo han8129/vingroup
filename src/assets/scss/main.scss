@@ -5,12 +5,18 @@
 				min-width: 10rem;
 }
 
-.grid {
+.overlap {
+	grid-template-columns: repeat(2, 1fr);
 	.image_to-overlap{
 		grid-row: 1;
-		grid-column:1 / 2;
+		grid-column:1 / span 2;
 	}
 	.text_overlap{
 		grid-row: 1;
+		grid-column: 1 / span 1;
+		align-self: start;
+		z-index: 1;
+		width: 100vw;
+		text-align: center;
 	}
 }
