@@ -6,14 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bootstrap demo</title>
 	<style>
-		@import url("compiled_styles/index.css")
-		@import url("compiled_styles/tailwindcss.css.css")
-	</style>
+	  </style>
 </head>
 
 <body class="flex flex-col gap-2">
-	<header class="container bg-green-400/50">
-		<nav class="flex my-3 items-center">
+	<header class="container">
+		<nav class="flex my-2 items-center">
 			<div class="flex-none">
 				<i class="fa-solid fa-burger text-3xl"></i>
 			</div>
@@ -26,9 +24,12 @@
 		</nav>
 	</header>
 
-	<main class="flex flex-col gap-2 container">
-		<img src=".\assets\pictures\Landmark81banner.jpg" class="img-thumbnail" alt="">
+	<section class="grid grid-cols-2">
+		<p class="m-0 uppercase text_overlap">Vì một cuộc sống tốt đẹp hơn</p>
+		<img src=".\assets\pictures\Landmark81banner.jpg" class="img-fluid img_to-overlap" alt="">
+	</section>
 
+	<main class="flex flex-col gap-2 container">
 		<section class="flex flex-col">
 			<h1 class="text-3xl text-left">
 				Some cool article
@@ -77,41 +78,85 @@
 				Trượt để khams phá
 			</p>
 
-			<section class="flex overflow-scroll gap-x-5">
-					<article class="custom-card_image flex flex-col my-3 bg-sky-500/50 border-t-4 border-red-400">
-							<div class="flex flex-row items-center gap-2 my-2">
-									<i class="text-4xl fa-solid fa-city"></i>
+			<section class="flex overflow-scroll gap-x-5 mb-10">
+				<article class="custom-card_image flex flex-col my-3 p-3 bg-sky-500/50 border-t-4 border-red-400">
+					<div class="flex flex-row items-center gap-2 my-9">
+						<i class="text-4xl fa-solid fa-city"></i>
 
-									<div class="flex-grow border-b-2 border-black bg-red-400">
-											<span>boiler</span>
-									</div>
-							</div>
+						<span class="flex-grow border-b-2 border-black bg-red-400 mt-auto">
+						</span>
+					</div>
 
-						<h1 class="text-red-500 font-bold">Card Title</h1>
+					<h1 class="text-red-500 font-bold">Card Title</h1>
 
-						<img class="w-40" src="assets/pictures/vinfast-toc-20190725T021453407861.jpg" alt="fast red car">
-					</article>
+					<img class="w-40" src="assets/pictures/vinfast-toc-20190725T021453407861.jpg" alt="fast red car">
+				</article>
+
+				<article class="custom-card_image flex flex-col my-3 p-3 bg-sky-500/50 border-t-4 border-red-400">
+					<div class="flex flex-row items-center gap-2 my-9">
+						<i class="text-4xl fa-solid fa-city"></i>
+
+						<span class="flex-grow border-b-2 border-black bg-red-400 mt-auto">
+						</span>
+					</div>
+
+					<h1 class="text-red-500 font-bold">Card Title</h1>
+
+					<img class="w-40" src="assets/pictures/vinfast-toc-20190725T021453407861.jpg" alt="fast red car">
+				</article>
+
+				<article class="custom-card_image flex flex-col my-3 p-3 bg-sky-500/50 border-t-4 border-red-400">
+					<div class="flex flex-row items-center gap-2 my-9">
+						<i class="text-4xl fa-solid fa-city"></i>
+
+						<span class="flex-grow border-b-2 border-black bg-red-400 mt-auto">
+						</span>
+					</div>
+
+					<h1 class="text-red-500 font-bold">Card Title</h1>
+
+					<img class="w-40" src="assets/pictures/vinfast-toc-20190725T021453407861.jpg" alt="fast red car">
+				</article>
 			</section>
 		</section>
 
-		<section class="flex flex-col">
-				<h1 class="flex-none textleft">Quan hệ cổ đông </h1>
+		<section class="flex flex-col gap-3">
+			<h1 class="text-left text-title font-Barlow mb-0">QUAN HỆ CỔ ĐÔNG</h1>
 
-				<h4 class="flex-none text-left">Giới thiêu tập đoàn</h4>
+			<h6 class="text-left text-title mb-3">GIỚI THIỆU TẬP ĐOÀN</h6>
+			
+			<span class="row g-0 m-0 bg-slate-500">
+				<span class="col-3 border-b-2 border-red-700"></span>
+				<span class="col border-b-2 border-slate-300"></span>
+			</span>
 
-				<article class="flex flex-col gap-3">
-						<img class="flex-none" src="assets/pictures/Landmark81banner.jpg" alt="">
+			<article class="flex flex-col gap-3">
+				<img class="img-thumbnail" src="assets/pictures/Landmark81banner.jpg" alt="">
 
-						<p class="flex-none">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quasi voluptatibus perspiciatis ducimus. Voluptates quidem repellendus natus repudiandae illum quis, aspernatur quisquam, enim ratione autem quae quo! Magni maxime in necessitatibus porro sunt harum, nesciunt assumenda sequi perferendis fuga adipisci dicta unde amet dolor quam ipsum voluptas eligendi. Totam, reiciendis?
-						</p>
-				</article>
+				<p class="">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quasi voluptatibus perspiciatis
+					ducimus. Voluptates quidem repellendus natus repudiandae illum quis, aspernatur quisquam, enim
+					ratione autem quae quo! Magni maxime in necessitatibus porro sunt harum, nesciunt assumenda sequi
+					perferendis fuga adipisci dicta unde amet dolor quam ipsum voluptas eligendi. Totam, reiciendis?
+				</p>
+			</article>
 		</section>
 	</main>
 
-	<footer class="container bg-yellow-400/50">
-		More link
+	<footer class="container">
+		<span class="row g-0 m-0">
+			<span class="col-6"> 
+				Tập đoàn Vingroup
+			</span>
+			<span class="col-2">
+				Trang chủ Giới thiệu
+			</span>
+			<span class="col">
+				Tin tức sự kiện tuyển dụng liên hệ
+			</span>
+		</span>
 	</footer>
 	<script type="module" src="./assets/js/main.js"></script>
 </body>
+
 </html>

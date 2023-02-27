@@ -4,3 +4,13 @@
 .custom-card_image{
 				min-width: 10rem;
 }
+
+.grid {
+	.image_to-overlap{
+		grid-row: 1;
+		grid-column:1 / 2;
+	}
+	.text_overlap{
+		grid-row: 1;
+	}
+}
