@@ -10790,11 +10790,11 @@ textarea.form-control-lg {
 }
 
 .custom_bg-landmark81 {
-  background-image: url("../pictures/Landmark81banner.jpg");
+  background-image: url("/src/assets/pictures/Landmark81banner.jpg");
   aspect-ratio: 3/4;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center left 75%;
+  background-position: 75% 65%;
 }
 
 /*# sourceMappingURL=main.css.map */
