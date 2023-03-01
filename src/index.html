@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bootstrap demo</title>
 	<style>
+		@import url('./compiled/tailwindcss.css');
+		@import url('./compiled/main.css');
+		@import url('../node_modules/@fortawesome/fontawesome-free/css/all.css');
 	</style>
 </head>
 
@@ -31,8 +34,8 @@
 			src=".\assets\pictures\Landmark81banner.jpg" alt="">
 	</section>
 
-	<main class="flex flex-col gap-2 container">
-		<section class="flex flex-col">
+	<main class="flex flex-col gap-2">
+		<section class="flex flex-col my-4 mx-4">
 			<h1 class="text-3xl text-left  text-slate-700 font-Barlow">
 				Some cool article
 			</h1>
@@ -65,10 +68,9 @@
 				<button type="button" class="text-start text-slate-500/50 font-Roboto text-xs font-bold">XEM TẤT CẢ <i
 						class="fa-solid fa-arrow-right"></i></button>
 			</section>
-
 		</section>
 
-		<article class="flex flex-col">
+		<article class="flex flex-col mx-4">
 			<h1 class="flex-none my-4">More Heading</h1>
 
 			<p class="text-slate-400">
@@ -82,11 +84,11 @@
 				Trượt để khams phá
 			</p>
 
-			<section class="flex overflow-scroll gap-x-5 mb-10">
+			<section class="flex overflow-scroll gap-x-5 mb-10 px-4">
 				<article class="min-w-default
 								flex flex-col my-3
 								rounded-b border-t-4 border-red-400
-								shadow-md
+								shadow-lg
 								">
 					<div class="flex flex-row items-center gap-2 my-9 ml-3">
 						<i class="text-4xl text-slate-400 fa-solid fa-city"></i>
@@ -104,7 +106,7 @@
 				<article class="min-w-default
 								flex flex-col my-3
 								rounded-b border-t-4 border-red-400
-								shadow-md
+								shadow-lg
 								">
 					<div class="flex flex-row items-center gap-2 my-9 ml-3">
 						<i class="text-4xl text-slate-400 fa-solid fa-city"></i>
@@ -139,7 +141,7 @@
 			</section>
 		</section>
 
-		<section class="flex flex-col gap-3">
+		<section class="flex flex-col gap-3 mx-4">
 			<h1 class="text-left text-title font-Barlow mb-0">QUAN HỆ CỔ ĐÔNG</h1>
 
 			<h6 class="text-left text-title mb-3">GIỚI THIỆU TẬP ĐOÀN</h6>
