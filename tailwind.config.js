@@ -12,6 +12,8 @@ module.exports = {
         'Barlow' : ['Barlow', 'sans-serif']
       }, minWidth: {
         default: '10rem'
+      }, aspectRatios: {
+        '3/4': '3 / 4'
       },
     },
   },
