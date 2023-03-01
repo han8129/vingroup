@@ -7,11 +7,12 @@ module.exports = {
     extend: {
       colors: {
         'title': '#424d54'
-      },
-      fontFamily: {
+      }, fontFamily: {
         'Roboto' : ['Roboto', 'sans-serif'],
         'Barlow' : ['Barlow', 'sans-serif']
-      }
+      }, minWidth: {
+        default: '10rem'
+      },
     },
   },
   plugins: [],
