@@ -14,7 +14,9 @@ module.exports = {
         default: '10rem'
       }, aspectRatios: {
         '3/4': '3 / 4'
-      },
+      }, minHeight: {
+        '85vh': '85vh'
+      }
     },
   },
   plugins: [],
