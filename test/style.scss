@@ -1,0 +1,15 @@
+.myDIV {
+  margin: auto;
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  background-color: coral;
+  color: white;
+  animation: ease-in-out mymove 1s infinite;
+}
+
+@keyframes mymove {
+  0% {transform: rotate(-30deg);}
+  50% { transform: rotate(30deg);}
+  100% {transform: rotate(-30deg)}
+}

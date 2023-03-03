@@ -10797,4 +10797,20 @@ textarea.form-control-lg {
   background-position: 75% 65%;
 }
 
+.wiggle-mouse {
+  animation: ease-in-out wiggle 1s infinite;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: translateX(-0.5rem);
+  }
+  50% {
+    transform: translateX(0.5rem);
+  }
+  100% {
+    transform: translateX(-0.5rem);
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
