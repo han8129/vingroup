@@ -11,7 +11,7 @@ module.exports = {
         'Roboto' : ['Roboto', 'sans-serif'],
         'Barlow' : ['Barlow', 'sans-serif']
       }, minWidth: {
-        default: '10rem'
+        default: '13rem'
       }, aspectRatios: {
         '3/4': '3 / 4'
       }, minHeight: {

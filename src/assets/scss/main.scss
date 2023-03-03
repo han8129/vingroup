@@ -30,7 +30,11 @@
 }
 
 .wiggle-mouse{
-	animation: ease-in-out wiggle 1s infinite;
+	animation-delay: 1s;
+	animation-duration: 1s;
+	animation-name: wiggle;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
   }
 
   @keyframes wiggle {
