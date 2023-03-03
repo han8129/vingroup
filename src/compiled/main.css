@@ -10798,8 +10798,7 @@ textarea.form-control-lg {
 }
 
 .wiggle-mouse {
-  animation-delay: 1s;
-  animation-duration: 1s;
+  animation-duration: 2500ms;
   animation-name: wiggle;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
@@ -10807,13 +10806,16 @@ textarea.form-control-lg {
 
 @keyframes wiggle {
   0% {
-    transform: translateX(-0.5rem);
+    transform: translateX(0rem);
+  }
+  25% {
+    transform: translateX(-1rem);
   }
   50% {
-    transform: translateX(0.5rem);
+    transform: translateX(1rem);
   }
-  100% {
-    transform: translateX(-0.5rem);
+  75% {
+    transform: translateX(0rem);
   }
 }
 

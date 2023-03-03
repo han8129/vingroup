@@ -1,23 +1,24 @@
-.myDIV {
-  margin: auto;
-  border: 1px solid black;
-  width: 200px;
-  height: 100px;
-  background-color: coral;
+body {
+  background-color: slategray;
   color: white;
-  animation: ease-in-out mymove 1s infinite;
+  padding: 0;
+  margin: 0;
 }
 
-@keyframes mymove {
-  0% {
-    transform: rotate(-30deg);
-  }
-  50% {
-    transform: rotate(30deg);
-  }
-  100% {
-    transform: rotate(-30deg);
-  }
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
