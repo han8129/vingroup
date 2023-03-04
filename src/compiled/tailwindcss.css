@@ -632,6 +632,10 @@ video {
   display: flex;
 }
 
+.hidden{
+  display: none;
+}
+
 .min-h-85vh{
   min-height: 85vh;
 }
@@ -872,4 +876,20 @@ video {
   --tw-backdrop-blur: blur(4px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.selection\:flex *::-moz-selection{
+  display: flex;
+}
+
+.selection\:flex *::selection{
+  display: flex;
+}
+
+.selection\:flex::-moz-selection{
+  display: flex;
+}
+
+.selection\:flex::selection{
+  display: flex;
 }

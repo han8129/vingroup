@@ -6,9 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bootstrap demo</title>
 	<style>
-		@import url('./compiled/tailwindcss.css');
 		@import url('./compiled/main.css');
-		@import url('../node_modules/@fortawesome/fontawesome-free/css/all.css');
 	</style>
 </head>
 
@@ -69,7 +67,7 @@
 			</section>
 		</section>
 
-		<article class="flex flex-col px-4 bg-gray-100">
+		<article class="onscroll_hidden selection:flex flex-col px-4 bg-gray-100">
 			<h1 class="my-4">More <br> <span class="text-red-700">Heading</span></h1>
 
 			<p class="text-slate-400">
@@ -150,7 +148,7 @@
 			</section>
 		</section>
 
-		<section class="flex flex-col gap-3 mx-4">
+		<section class="onscroll_hidden flex flex-col gap-3 mx-4">
 			<h1 class="text-left text-title font-Barlow mb-0 -ml-3">QUAN HỆ CỔ ĐÔNG</h1>
 
 			<h6 class="text-left font-bold text-title text-xs mb-3">GIỚI THIỆU TẬP ĐOÀN</h6>
@@ -186,9 +184,8 @@
 			</span>
 		</span>
 	</footer>
-	<script src="../node_modules/jquery/dist/jquery.js"></script>
-	<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-	<script src="./assets/js/main.js"></script>
+
+	<script type='module' src="./assets/js/main.js"></script>
 </body>
 
 </html>
