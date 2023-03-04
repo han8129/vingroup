@@ -1,191 +1,238 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <style>
+      @import url("./compiled/main.css");
+    </style>
+  </head>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Bootstrap demo</title>
-	<style>
-		@import url('./compiled/main.css');
-	</style>
-</head>
+  <body class="flex flex-col">
+    <header class="container">
+	  <section class="flex items-center my-2">
+        <i class="text-3xl text-gray-400 fa-solid fa-bars"></i>
 
-<body class="flex flex-col">
-	<header class="container">
-		<nav class="flex my-2 items-center">
-			<i class="text-gray-400 fa-solid fa-bars text-3xl"></i>
+        <img
+          class="flex-none w-12 mx-auto"
+          src="./assets/pictures/logo.png"
+          alt="generic vingroup logo"
+        />
 
-			<img class="flex-none mx-auto w-12" src="./assets/pictures/logo.png" alt="generic vingroup logo">
-
-			<i class="text-gray-300 fa-solid fa-magnifying-glass text-3xl"></i>
+        <i class="text-3xl text-gray-300 fa-solid fa-magnifying-glass"></i>
+	  </section>
+	  <span>
+		<nav id="primary-navigation" class="flex flex-col gap-1 primary-navigation">
+			<a href="" class="uppercase">Trang chủ</a>
+			<a href="" class="uppercase">Trang chủ</a>
+			<a href="" class="uppercase">Trang chủ</a>
+			<a href="" class="uppercase">Trang chủ</a>
+			<a href="" class="uppercase">Trang chủ</a>
+			<a href="" class="uppercase">Trang chủ</a>
+			<a href="" class="uppercase">Trang chủ</a>
+			<a href="" class="uppercase">Trang chủ</a>
 		</nav>
-	</header>
+	  </span>
+    </header>
 
-	<section class="min-h-85vh flex flex-col items-center custom_bg-landmark81">
-		<h1 class="m-0 mx-3 uppercase font-extrabold font-Barlow text-white mt-3">Vì một cuộc sống tốt đẹp hơn</h1>
+    <section class="flex flex-col items-center min-h-85vh custom_bg-landmark81">
+      <h1 class="m-0 mx-3 mt-3 font-extrabold text-white uppercase font-Barlow">
+        Vì một cuộc sống tốt đẹp hơn
+      </h1>
 
-        <span class="text-white p-2 rounded-lg border-0 backdrop-blur-sm
-                mt-auto mb-3 flex flex-col items-center">
-            <p class="text-center uppercase">Cuộn <br> xuống</p>
-            <i class="fa-solid fa-arrow-down-long"></i>
+      <span
+        class="flex flex-col items-center p-2 mt-auto mb-3 text-white border-0 rounded-lg backdrop-blur-sm"
+      >
+        <p class="text-center uppercase">
+          Cuộn <br />
+          xuống
+        </p>
+        <i class="fa-solid fa-arrow-down-long"></i>
+      </span>
+    </section>
+
+    <main class="flex flex-col gap-2">
+      <section class="flex flex-col mx-4 my-4">
+        <h1 class="text-3xl text-left text-slate-700 font-Barlow">
+          Some cool article
+        </h1>
+
+        <section class="flex flex-col">
+          <article class="flex flex-col flex-none">
+            <img
+              class="mb-2 img-fluid"
+              src="./assets/pictures/random_doctor.jpg"
+              alt="A vingroup item"
+            />
+
+            <h6 class="text-slate-700">Very Informative Title</h6>
+
+            <p class="font-light text-slate-400">date</p>
+          </article>
+
+          <article class="flex flex-col flex-none">
+            <img
+              class="mb-2 img-fluid"
+              src="./assets/pictures/random_doctor.jpg"
+              alt="A vingroup item"
+            />
+
+            <h6 class="text-slate-700">Very Informative Title</h6>
+
+            <p class="font-light text-slate-400">date</p>
+          </article>
+
+          <article class="flex flex-col flex-none">
+            <img
+              class="mb-2 img-fluid"
+              src="./assets/pictures/random_doctor.jpg"
+              alt="A vingroup item"
+            />
+
+            <h6 class="text-slate-700">Very Informative Title</h6>
+
+            <p class="font-light text-slate-400">date</p>
+          </article>
+
+          <button
+            type="button"
+            class="text-xs font-bold text-start text-slate-500/50 font-Roboto"
+          >
+            XEM TẤT CẢ <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </section>
+      </section>
+
+      <article class="flex-col px-4 bg-gray-100 onscroll_hidden selection:flex">
+        <h1 class="my-4">
+          More <br />
+          <span class="text-red-700">Heading</span>
+        </h1>
+
+        <p class="text-slate-400">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam eius
+          illo cum neque saepe corporis ipsam est pariatur mollitia aut.
+        </p>
+
+        <span
+          class="flex flex-row items-center justify-center gap-x-1 wiggle-mouse"
+        >
+          <i class="text-gray-400 fa-solid fa-arrow-left"></i>
+
+          <img
+            class="w-5"
+            src="./assets/pictures/mouse.png"
+            alt="generic mice"
+          />
+
+          <i class="text-gray-400 fa-solid fa-arrow-right"></i>
         </span>
-	</section>
+        <p class="flex-none my-3 text-center">Trượt để khams phá</p>
+      </article>
 
-	<main class="flex flex-col gap-2">
-		<section class="flex flex-col my-4 mx-4">
-			<h1 class="text-3xl text-left  text-slate-700 font-Barlow">
-				Some cool article
-			</h1>
+      <section class="flex flex-col">
+        <section class="flex px-4 mb-10 overflow-scroll gap-x-5 snap-x">
+          <article
+            class="flex flex-col my-3 border-t-4 border-red-400 rounded-b shadow-lg min-w-default snap-center"
+          >
+            <div class="flex flex-row items-center gap-2 ml-3 my-9">
+              <i class="text-4xl text-slate-400 fa-solid fa-city"></i>
 
-			<section class="flex flex-col">
-				<article class="flex-none flex flex-col">
-					<img class="img-fluid mb-2" src="./assets/pictures/random_doctor.jpg" alt="A vingroup item">
+              <span class="flex-grow mt-auto border-b-2 border-slate-300">
+              </span>
+            </div>
 
-					<h6 class="text-slate-700">Very Informative Title</h6>
+            <h1 class="ml-3 text-red-500 font-old">Card Title</h1>
 
-					<p class="font-light text-slate-400">date</p>
-				</article>
+            <img
+              class="w-auto m-3 mt-0"
+              src="assets/pictures/vinfast-toc-20190725T021453407861.jpg"
+              alt="fast red car"
+            />
+          </article>
 
-				<article class="flex-none flex flex-col">
-					<img class="img-fluid mb-2" src="./assets/pictures/random_doctor.jpg" alt="A vingroup item">
+          <article
+            class="flex flex-col my-3 border-t-4 border-red-400 rounded-b shadow-lg min-w-default snap-center"
+          >
+            <div class="flex flex-row items-center gap-2 ml-3 my-9">
+              <i class="text-4xl text-slate-400 fa-solid fa-city"></i>
 
-					<h6 class="text-slate-700">Very Informative Title</h6>
+              <span class="flex-grow mt-auto border-b-2 border-slate-300">
+              </span>
+            </div>
 
-					<p class="font-light text-slate-400">date</p>
-				</article>
+            <h1 class="ml-3 font-bold text-red-500">Card Title</h1>
 
-				<article class="flex-none flex flex-col">
-					<img class="img-fluid mb-2" src="./assets/pictures/random_doctor.jpg" alt="A vingroup item">
+            <img
+              class="w-auto m-3 mt-0"
+              src="assets/pictures/vinfast-toc-20190725T021453407861.jpg"
+              alt="fast red car"
+            />
+          </article>
 
-					<h6 class="text-slate-700">Very Informative Title</h6>
+          <article
+            class="flex flex-col my-3 border-t-4 border-red-400 rounded-b shadow-md min-w-default snap-center"
+          >
+            <div class="flex flex-row items-center gap-2 ml-3 my-9">
+              <i class="text-4xl text-slate-400 fa-solid fa-city"></i>
 
-					<p class="font-light text-slate-400">date</p>
-				</article>
+              <span class="flex-grow mt-auto border-b-2 border-slate-300">
+              </span>
+            </div>
 
-				<button type="button" class="text-start text-slate-500/50 font-Roboto text-xs font-bold">XEM TẤT CẢ <i
-						class="fa-solid fa-arrow-right"></i></button>
-			</section>
-		</section>
+            <h1 class="ml-3 font-bold text-red-500">Card Title</h1>
 
-		<article class="onscroll_hidden selection:flex flex-col px-4 bg-gray-100">
-			<h1 class="my-4">More <br> <span class="text-red-700">Heading</span></h1>
+            <img
+              class="w-auto m-3 mt-0"
+              src="assets/pictures/vinfast-toc-20190725T021453407861.jpg"
+              alt="fast red car"
+            />
+          </article>
+        </section>
+      </section>
 
-			<p class="text-slate-400">
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam eius illo cum neque saepe corporis ipsam
-				est pariatur mollitia aut.
-			</p>
+      <section class="flex flex-col gap-3 mx-4 onscroll_hidden">
+        <h1 class="mb-0 -ml-3 text-left text-title font-Barlow">
+          QUAN HỆ CỔ ĐÔNG
+        </h1>
 
-			<span class="flex flex-row justify-center items-center gap-x-1 wiggle-mouse">
-				<i class="text-gray-400 fa-solid fa-arrow-left"></i>
+        <h6 class="mb-3 text-xs font-bold text-left text-title">
+          GIỚI THIỆU TẬP ĐOÀN
+        </h6>
 
-				<img class="w-5" src="./assets/pictures/mouse.png" alt="generic mice">
+        <span class="m-0 row g-0 bg-slate-500">
+          <span class="border-b-2 border-red-700 col-3"></span>
+          <span class="border-b-2 col border-slate-300"></span>
+        </span>
 
-				<i class="text-gray-400 fa-solid fa-arrow-right"></i>
-			</span>
-			<p class="flex-none text-center my-3">
-				Trượt để khams phá
-			</p>
-		</article>
+        <article class="flex flex-col gap-3">
+          <img
+            class="img-fluid"
+            src="assets/pictures/Landmark81banner.jpg"
+            alt=""
+          />
 
-		<section class="flex flex-col">
-			<section class="flex overflow-scroll gap-x-5 mb-10 px-4 snap-x">
-				<article class="min-w-default
-								flex flex-col my-3
-								rounded-b border-t-4 border-red-400
-								shadow-lg
-								snap-center
-								">
-					<div class="flex flex-row items-center gap-2 my-9 ml-3">
-						<i class="text-4xl text-slate-400 fa-solid fa-city"></i>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quasi
+            voluptatibus perspiciatis ducimus. Voluptates quidem repellendus
+            natus repudiandae illum quis, aspernatur quisquam, enim ratione
+            autem quae quo! Magni maxime in necessitatibus porro sunt harum,
+            nesciunt assumenda sequi perferendis fuga adipisci dicta unde amet
+            dolor quam ipsum voluptas eligendi. Totam, reiciendis?
+          </p>
+        </article>
+      </section>
+    </main>
 
-						<span class="flex-grow border-b-2 border-slate-300 mt-auto">
-						</span>
-					</div>
+    <footer class="container">
+      <span class="m-0 row g-0">
+        <span class="col-6"> Tập đoàn Vingroup </span>
+        <span class="col-2"> Trang chủ Giới thiệu </span>
+        <span class="col"> Tin tức sự kiện tuyển dụng liên hệ </span>
+      </span>
+    </footer>
 
-					<h1 class="text-red-500 font-old ml-3">Card Title</h1>
-
-					<img class="w-auto m-3 mt-0" src="assets/pictures/vinfast-toc-20190725T021453407861.jpg"
-						alt="fast red car">
-				</article>
-
-				<article class="min-w-default
-								flex flex-col my-3
-								rounded-b border-t-4 border-red-400
-								shadow-lg
-								snap-center
-								">
-					<div class="flex flex-row items-center gap-2 my-9 ml-3">
-						<i class="text-4xl text-slate-400 fa-solid fa-city"></i>
-
-						<span class="flex-grow border-b-2 border-slate-300 mt-auto">
-						</span>
-					</div>
-
-					<h1 class="text-red-500 font-bold ml-3">Card Title</h1>
-
-					<img class="w-auto m-3 mt-0" src="assets/pictures/vinfast-toc-20190725T021453407861.jpg"
-						alt="fast red car">
-				</article>
-
-				<article class="min-w-default
-								flex flex-col my-3
-								rounded-b border-t-4 border-red-400
-								shadow-md
-								snap-center
-								">
-					<div class="flex flex-row items-center gap-2 my-9 ml-3">
-						<i class="text-4xl text-slate-400 fa-solid fa-city"></i>
-
-						<span class="flex-grow border-b-2 border-slate-300 mt-auto">
-						</span>
-					</div>
-
-					<h1 class="text-red-500 font-bold ml-3">Card Title</h1>
-
-					<img class="w-auto m-3 mt-0" src="assets/pictures/vinfast-toc-20190725T021453407861.jpg"
-						alt="fast red car">
-				</article>
-			</section>
-		</section>
-
-		<section class="onscroll_hidden flex flex-col gap-3 mx-4">
-			<h1 class="text-left text-title font-Barlow mb-0 -ml-3">QUAN HỆ CỔ ĐÔNG</h1>
-
-			<h6 class="text-left font-bold text-title text-xs mb-3">GIỚI THIỆU TẬP ĐOÀN</h6>
-
-			<span class="row g-0 m-0 bg-slate-500">
-				<span class="col-3 border-b-2 border-red-700"></span>
-				<span class="col border-b-2 border-slate-300"></span>
-			</span>
-
-			<article class="flex flex-col gap-3">
-				<img class="img-fluid" src="assets/pictures/Landmark81banner.jpg" alt="">
-
-				<p class="">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quasi voluptatibus perspiciatis
-					ducimus. Voluptates quidem repellendus natus repudiandae illum quis, aspernatur quisquam, enim
-					ratione autem quae quo! Magni maxime in necessitatibus porro sunt harum, nesciunt assumenda sequi
-					perferendis fuga adipisci dicta unde amet dolor quam ipsum voluptas eligendi. Totam, reiciendis?
-				</p>
-			</article>
-		</section>
-	</main>
-
-	<footer class="container">
-		<span class="row g-0 m-0">
-			<span class="col-6">
-				Tập đoàn Vingroup
-			</span>
-			<span class="col-2">
-				Trang chủ Giới thiệu
-			</span>
-			<span class="col">
-				Tin tức sự kiện tuyển dụng liên hệ
-			</span>
-		</span>
-	</footer>
-
-	<script type='module' src="./assets/js/main.js"></script>
-</body>
-
+    <script type="module" src="./assets/js/main.js"></script>
+  </body>
 </html>

@@ -6,6 +6,7 @@ $fa-font-path: "../../../node_modules/@fortawesome/fontawesome-free/webfonts";
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 @import '../../compiled/tailwindcss';
 @import './scrollAnimation.scss';
+@import './offCanvas.scss';
 
 
 .custom-card_image{
