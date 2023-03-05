@@ -6,7 +6,8 @@
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "sass": "sass src/assets/scss/main.scss src/compiled/main.css --watch",
-    "tailwindcss": "tailwindcss -i ./src/assets/scss/tailwindcss.scss -o ./src/compiled/tailwindcss.css --watch"
+    "tailwindcss": "tailwindcss -i ./src/assets/scss/tailwindcss.scss -o ./src/compiled/tailwindcss.css --watch",
+    "live-server": "live-server --open=src"
   },
   "author": "",
   "license": "ISC",
