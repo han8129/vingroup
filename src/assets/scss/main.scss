@@ -1,50 +1,57 @@
 $fa-font-path: "../../../node_modules/@fortawesome/fontawesome-free/webfonts";
-@import '../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
-@import '../../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
-@import '../../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
-@import '../../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
-@import './scrollAnimation.scss';
-@import './offCanvas.scss';
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+@import "./scrollAnimation.scss";
+@import "./offCanvas.scss";
 
-
-.custom-card_image{
-				min-width: 10rem;
+.custom-card_image {
+  min-width: 10rem;
 }
 
 .overlap {
-	grid-template-columns: repeat(2, 1fr);
-	.image_to-overlap{
-		grid-row: 1;
-		grid-column:1 / span 2;
-	}
-	.text_overlap{
-		grid-row: 1;
-		grid-column: 1 / span 1;
-		align-self: start;
-		z-index: 1;
-		width: 100vw;
-		text-align: center;
-	}
+  grid-template-columns: repeat(2, 1fr);
+  .image_to-overlap {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+  }
+  .text_overlap {
+    grid-row: 1;
+    grid-column: 1 / span 1;
+    align-self: start;
+    z-index: 1;
+    width: 100vw;
+    text-align: center;
+  }
 }
 
-.custom_bg-landmark81{
-	background-image: url('/src/assets/pictures/Landmark81banner.jpg');
-	aspect-ratio: 3/4;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 75% 65%;
+.custom_bg-landmark81 {
+  background-image: url("/src/assets/pictures/Landmark81banner.jpg");
+  aspect-ratio: 3/4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 75% 65%;
 }
 
-.wiggle-mouse{
-	animation-duration: 2500ms;
-	animation-name: wiggle;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-  }
+.wiggle-mouse {
+  animation-duration: 2500ms;
+  animation-name: wiggle;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
 
-  @keyframes wiggle {
-	0% {transform: translateX(0rem);}
-	25% { transform: translateX(-1rem);}
-	50% { transform: translateX(1rem);}
-	75% {transform: translateX(0rem);}
+@keyframes wiggle {
+  0% {
+    transform: translateX(0rem);
   }
+  25% {
+    transform: translateX(-1rem);
+  }
+  50% {
+    transform: translateX(1rem);
+  }
+  75% {
+    transform: translateX(0rem);
+  }
+}

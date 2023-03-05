@@ -12,33 +12,47 @@
   </head>
 
   <body class="flex flex-col">
-    <header class="container fixed top-0 left-0 right-0 z-50 flex flex-col justify-center bg-white h-14">
-	  <section class="flex items-center">
-        <i class="text-3xl text-gray-400 fa-solid fa-bars"></i>
+    <header
+      class="container fixed top-0 left-0 right-0 z-50 flex flex-col justify-center bg-white h-14"
+    >
+      <section class="flex items-center justify-between custom_bg_vingroup-logo">
+        <button type="button" class="">
+          <i
+            class="toggle_navigation text-3xl text-gray-400 fa-solid fa-bars"
+            aria-controls="primary-navigation"
+            aria-expanded="false"
+          ></i>
+        </button>
 
         <img
-          class="flex-none w-12 mx-auto"
+          class="flex-none w-12"
           src="./assets/pictures/logo.png"
           alt="generic vingroup logo"
         />
 
         <i class="text-3xl text-gray-300 fa-solid fa-magnifying-glass"></i>
-	  </section>
-	  <span>
-		<nav id="primary-navigation" class="flex flex-col gap-1 primary-navigation">
-			<a href="" class="uppercase">Trang chủ</a>
-			<a href="" class="uppercase">Trang chủ</a>
-			<a href="" class="uppercase">Trang chủ</a>
-			<a href="" class="uppercase">Trang chủ</a>
-			<a href="" class="uppercase">Trang chủ</a>
-			<a href="" class="uppercase">Trang chủ</a>
-			<a href="" class="uppercase">Trang chủ</a>
-			<a href="" class="uppercase">Trang chủ</a>
-		</nav>
-	  </span>
+      </section>
+      <span>
+        <nav
+          data-visible="false"
+          id="primary-navigation"
+          class="flex flex-col gap-2 primary-navigation items-center text-white bg-black/70"
+        >
+          <a href="" class="uppercase">Trang chủ</a>
+          <a href="" class="uppercase">Trang chủ</a>
+          <a href="" class="uppercase">Trang chủ</a>
+          <a href="" class="uppercase">Trang chủ</a>
+          <a href="" class="uppercase">Trang chủ</a>
+          <a href="" class="uppercase">Trang chủ</a>
+          <a href="" class="uppercase">Trang chủ</a>
+          <a href="" class="uppercase">Trang chủ</a>
+        </nav>
+      </span>
     </header>
 
-    <section class="flex flex-col items-center mt-14 min-h-85vh custom_bg-landmark81">
+    <section
+      class="flex flex-col items-center mt-14 min-h-85vh custom_bg-landmark81"
+    >
       <h1 class="m-0 mx-3 mt-3 font-extrabold text-white uppercase font-Barlow">
         Vì một cuộc sống tốt đẹp hơn
       </h1>
