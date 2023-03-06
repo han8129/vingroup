@@ -11,6 +11,13 @@
   z-index: 0;
  }
 
+.onscroll_hidden_right {
+  position: absolute;
+  z-index: 100;
+  transform: translateX(100%);
+  min-height: fit-content;
+}
+
 @media(prefer-reduced-motion) {
   .hidden {
     transition: none;
@@ -18,7 +25,4 @@
 }
 
 @media (min-width: 768px) {
-//.onscroll_hidden_right {
-//  transform: translateX(100%);
-//}
 }

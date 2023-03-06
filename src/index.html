@@ -37,7 +37,7 @@
         <nav
           data-visible="false"
           id="primary-navigation"
-          class="flex flex-col items-center text-white gap-2 primary-navigation bg-black/70"
+          class="flex flex-col items-center gap-2 text-white primary-navigation bg-black/70"
         >
           <a href="" class="uppercase">Trang chủ</a>
           <a href="" class="uppercase">Trang chủ</a>
@@ -121,7 +121,7 @@
       </section>
 
       <section class="mb-6 md:grid-cols-7 md:grid md:items-center">
-        <section class="flex flex-col px-4 bg-gray-100 col-start-1 -z-10 md:px-8 md:row-start-1 md:row-end-1 md:col-end-8 onscroll_hidden">
+        <section class="flex flex-col col-start-1 px-4 bg-gray-100 -z-10 md:px-8 md:row-start-1 md:row-end-1 md:col-end-8 onscroll_hidden">
           <div class="md:w-2/5">
 
           <h1 class="text-4xl my-7">
@@ -152,12 +152,13 @@
           </div>
         </section>
 
-        <section class="flex flex-col overflow-x-auto onscroll_hidden_right md:row-start-1 md:row-end-1 md:col-end-8 md:col-start-4 onscroll_hidden">
-          <section class="flex px-4 overflow-scroll gap-x-5 snap-x">
+        <section class="h-full md:row-start-1 md:row-end-1 md:col-end-8 md:col-start-4">
+          <section class="flex px-4 overflow-scroll translate-x-full gap-x-5 snap-x">
+
             <article
               class="flex flex-col my-3 bg-white border-t-4 border-red-400 rounded-b shadow-lg min-w-default snap-center"
             >
-              <div class="flex flex-row items-center ml-3 gap-2 my-9">
+              <div class="flex flex-row items-center gap-2 ml-3 my-9">
                 <i class="text-4xl text-slate-400 fa-solid fa-city"></i>
 
                 <span class="flex-grow mt-auto border-b-2 border-slate-300">
@@ -176,7 +177,7 @@
             <article
               class="flex flex-col my-3 bg-white border-t-4 border-red-400 rounded-b shadow-lg min-w-default snap-center"
             >
-              <div class="flex flex-row items-center ml-3 gap-2 my-9">
+              <div class="flex flex-row items-center gap-2 ml-3 my-9">
                 <i class="text-4xl text-slate-400 fa-solid fa-city"></i>
 
                 <span class="flex-grow mt-auto border-b-2 border-slate-300">
@@ -195,7 +196,7 @@
             <article
               class="flex flex-col my-3 bg-white border-t-4 border-red-400 rounded-b shadow-md min-w-default snap-center"
             >
-              <div class="flex flex-row items-center ml-3 gap-2 my-9">
+              <div class="flex flex-row items-center gap-2 ml-3 my-9">
                 <i class="text-4xl text-slate-400 fa-solid fa-city"></i>
 
                 <span class="flex-grow mt-auto border-b-2 border-slate-300">
@@ -214,7 +215,7 @@
         </section>
       </section>
 
-      <section class="flex flex-col px-4 gap-3 onscroll_hidden md:px-8">
+      <section class="flex flex-col gap-3 px-4 onscroll_hidden md:px-8">
         <h1 class="mb-0 -ml-3 text-3xl text-left text-title font-Barlow">
           QUAN HỆ CỔ ĐÔNG
         </h1>
@@ -223,9 +224,9 @@
           GIỚI THIỆU TẬP ĐOÀN
         </h6>
 
-        <span class="container m-0 grid grid-cols-7 g-0 bg-slate-500">
-          <span class="border-b-2 border-red-700 col-span-2"></span>
-          <span class="border-b-2 col-span-5 border-slate-300"></span>
+        <span class="container grid grid-cols-7 m-0 g-0 bg-slate-500">
+          <span class="col-span-2 border-b-2 border-red-700"></span>
+          <span class="col-span-5 border-b-2 border-slate-300"></span>
         </span>
 
         <article class="flex flex-col gap-3">
@@ -248,7 +249,7 @@
     </main>
 
     <footer class="container px-4 md:px-8">
-      <span class="m-0 grid grid-cols-7 g-0">
+      <span class="grid grid-cols-7 m-0 g-0">
         <span class="col-span-1"> Tập đoàn Vingroup </span>
         <span class="col-span-3"> Trang chủ Giới thiệu </span>
         <span class="col-span-3"> Tin tức sự kiện tuyển dụng liên hệ </span>
