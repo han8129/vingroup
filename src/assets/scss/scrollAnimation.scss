@@ -7,15 +7,14 @@
  .show {
   opacity: 1;
   filter: blur(0);
-  transform: translateX(0);
+  transform: translateX(0) !important;
   z-index: 0;
  }
 
 .onscroll_hidden_right {
-  position: absolute;
   z-index: 100;
   transform: translateX(100%);
-  min-height: fit-content;
+  transition: all 1s;
 }
 
 @media(prefer-reduced-motion) {
