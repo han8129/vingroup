@@ -17,6 +17,10 @@
   transition: all 1s;
 }
 
+.no-transition {
+  transition: none;
+}
+
 @media(prefer-reduced-motion) {
   .hidden {
     transition: none;

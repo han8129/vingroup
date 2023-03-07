@@ -1,9 +1,4 @@
 import './onScrollEffect.js';
 import './toggleOffcanvas.js'
+import './overflowScroll.js'
 import '../../../node_modules/jquery/dist/jquery.js';
-
-$(document).ready(function() {
-        $("h1").click(function() {
-                console.log("clicked ");
-        });
-});
