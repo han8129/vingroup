@@ -2,29 +2,29 @@
 let currentMouseX;
 let originalMouseX;
 const elementToTranslate = document.querySelector('.custom-scroll_overflow');
-let mouseIsUp = false;
 
-elementToTranslate.onmousedown = (mousedown) => {
-    mouseIsUp = false
-    originalMouseX = mousedown.pageX
-    elementToTranslate.style.setProperty("transition", "none", "important")
-}
-
-elementToTranslate.addEventListener('mousemove', (event) =>{
-    if (mouseIsUp) {
-        return
-    }
-
+function getMouseXDelta(event) {
     currentMouseX = event.pageX
     let mouseXDelta = - (originalMouseX - currentMouseX)
     console.log(mouseXDelta);
 
-    elementToTranslate.style.setProperty("transform", "translateX(" + mouseXDelta + "px)", "important")
-})
-
-elementToTranslate.onmouseup = (event) => {
-    elementToTranslate.style.removeProperty("transition")
-    originalMouseX = event.pageX
-    mouseIsUp = true;
-    elementToTranslate.removeEventListener('mousemove')
+    elementToTranslate.style.setProperty("transform", "translateX(" + mouseXDelta + "px)")
 }
+
+elementToTranslate.addEventListener('pointerdown', (mousedown) => {
+    elementToTranslate.setPointerCapture(mousedown.pointerId)
+    getMouseXDelta(mousedown)
+    originalMouseX = mousedown.pageX
+    elementToTranslate.classList.remove('duration-500')
+
+    elementToTranslate.addEventListener('pointermove', getMouseXDelta)
+
+    elementToTranslate.addEventListener(
+        'pointerup',
+        () => {
+            elementToTranslate.classList.add("duration-500")
+            elementToTranslate.removeEventListener('pointermove', getMouseXDelta)
+        },
+        { once: true }
+    )
+})
