@@ -12,10 +12,10 @@
 
   <body class="flex flex-col">
     <header
-      class="fixed top-0 left-0 right-0 z-50 flex flex-col justify-center px-4 bg-white md:px-8 w- h-14"
+      class="flex flex-col h-screen"
     >
       <section
-        class="flex items-center justify-between w-full custom_bg_vingroup-logo"
+        class="fixed top-0 z-50 flex items-center justify-between w-full px-3 bg-white h-fit min-h-6vh md:px-4"
       >
         <button type="button" class="">
           <i
@@ -33,6 +33,7 @@
 
         <i class="text-3xl text-gray-300 fa-solid fa-magnifying-glass"></i>
       </section>
+
       <span>
         <nav
           data-visible="false"
@@ -49,25 +50,27 @@
           <a href="" class="uppercase">Trang chủ</a>
         </nav>
       </span>
+
+      <section
+        class="flex flex-col flex-grow mt-auto custom_bg-landmark81"
+      >
+        <h1
+          class="mx-3 mb-auto text-3xl font-extrabold text-white uppercase sm:mt-2 md:self-center lg:text-6xl lg:ml-40 md:mt-auto md:ml-4 font-Barlow md:self-start md:text-4xl md:max-w-sm lg:max-w-lg"
+        >
+          Vì một cuộc sống tốt đẹp hơn
+        </h1>
+
+        <span
+          class="flex flex-col items-center self-center p-2 mb-3 text-white border-0 rounded-lg max-w-fit md:m-0 backdrop-blur-sm"
+        >
+          <p class="text-center uppercase">
+            Cuộn <br />
+            xuống
+          </p>
+          <i class="mb-2 text-center fa-solid fa-arrow-down-long"></i>
+        </span>
+      </section>
     </header>
-
-    <section class="flex flex-col w-full mt-14 min-h-85vh custom_bg-landmark81">
-      <h1
-        class="self-center m-0 mx-3 mt-3 mb-auto text-3xl font-extrabold text-white uppercase md:mt-auto md:ml-4 font-Barlow md:self-start md:text-4xl md:max-w-sm"
-      >
-        Vì một cuộc sống tốt đẹp hơn
-      </h1>
-
-      <span
-        class="flex flex-col items-center self-center p-2 mb-3 text-white border-0 rounded-lg max-w-fit md:m-0 backdrop-blur-sm"
-      >
-        <p class="text-center uppercase">
-          Cuộn <br />
-          xuống
-        </p>
-        <i class="mb-2 text-center fa-solid fa-arrow-down-long"></i>
-      </span>
-    </section>
 
     <main class="flex flex-col gap-2">
       <section class="flex flex-col px-4 md:px-8">
@@ -112,51 +115,54 @@
             <p class="font-light text-slate-400">date</p>
           </article>
         </section>
-          <button
-            type="button"
-            class="my-3 text-xs font-bold text-start text-slate-500/50 font-Roboto"
-          >
-            XEM TẤT CẢ <i class="fa-solid fa-arrow-right"></i>
-          </button>
-      </section>
+        <button
+          type="button"
+          class="my-3 text-xs font-bold text-start text-slate-500/50 font-Roboto"
+        >
+          XEM TẤT CẢ <i class="fa-solid fa-arrow-right"></i>
+        </button>
+ px-4      </section>
 
-      <section class="mb-6 overflow-hidden md:grid-cols-7 md:grid md:items-center">
-        <section class="flex flex-col col-start-1 px-4 duration-500 -translate-x-full bg-gray-100 blur-sm -z-10 md:px-8 md:row-start-1 md:row-end-1 md:col-end-8 custom_onscroll-effect">
-          <div class="md:w-2/5">
+      <section
+        class="mb-6 overflow-hidden lg:min-h-min md:grid-cols-7 md:grid md:items-center"
+      >
+        <section
+          class="flex flex-col col-start-1 px-4 duration-500 -translate-x-full bg-gray-100 blur-sm -z-10 md:px-8 md:row-start-1 md:row-end-1 md:col-end-8 custom_onscroll-effect"
+        >
+          <div class="md:w-2/5 lg:w-1/4">
+            <h1 class="text-4xl my-7">
+              More <br />
+              <span class="text-red-700">Heading</span>
+            </h1>
 
-          <h1 class="text-4xl my-7">
-            More <br />
-            <span class="text-red-700">Heading</span>
-          </h1>
+            <p class="text-slate-400">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam eius
+              illo cum neque saepe corporis ipsam est pariatur mollitia aut.
+            </p>
 
-          <p class="text-slate-400">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam eius
-            illo cum neque saepe corporis ipsam est pariatur mollitia aut.
-          </p>
+            <span
+              class="flex flex-row items-center justify-center gap-x-1 wiggle-mouse"
+            >
+              <i class="text-gray-400 fa-solid fa-arrow-left"></i>
 
-          <span
-            class="flex flex-row items-center justify-center gap-x-1 wiggle-mouse"
-          >
-            <i class="text-gray-400 fa-solid fa-arrow-left"></i>
+              <img
+                class="w-5"
+                src="./assets/pictures/mouse.png"
+                alt="generic mice"
+              />
 
-            <img
-              class="w-5"
-              src="./assets/pictures/mouse.png"
-              alt="generic mice"
-            />
-
-            <i class="text-gray-400 fa-solid fa-arrow-right"></i>
-          </span>
-          <p class="flex-none my-3 text-center">Trượt để khams phá</p>
-
+              <i class="text-gray-400 fa-solid fa-arrow-right"></i>
+            </span>
+            <p class="flex-none my-3 text-center">Trượt để khams phá</p>
           </div>
         </section>
 
-        <section class="duration-500 translate-x-full opacity-0 touch-none md:row-start-1 md:row-end-1 md:col-end-8 md:col-start-4 custom-scroll_overflow blur-sm custom_onscroll-effect_right">
+        <section
+          class="duration-500 translate-x-full opacity-0 touch-none md:row-start-1 md:row-end-1 md:col-end-8 lg:col-start-3 md:col-start-4 custom-scroll_overflow blur-sm custom_onscroll-effect_right"
+        >
           <section class="flex px-4 gap-x-5">
-
             <article
-              class="flex flex-col my-3 bg-white border-t-4 border-red-400 rounded-b shadow-lg min-w-default snap-center"
+              class="z-10 flex flex-col my-3 bg-white border-t-4 border-red-400 rounded-b shadow-lg min-w-default snap-center"
             >
               <div class="flex flex-row items-center gap-2 ml-3 my-9">
                 <i class="text-4xl text-slate-400 fa-solid fa-city"></i>

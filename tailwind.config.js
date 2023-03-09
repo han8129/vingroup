@@ -15,7 +15,7 @@ module.exports = {
       }, aspectRatios: {
         '3/4': '3 / 4'
       }, minHeight: {
-        '85vh': '85vh'
+        '6vh': '6vh'
       }
     },
   },
