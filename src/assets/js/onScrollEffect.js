@@ -1,6 +1,5 @@
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-            console.log(entry)
 
             if (entry.isIntersecting){
                 entry.target.classList.remove('-translate-x-full');
@@ -16,7 +15,6 @@ const observer = new IntersectionObserver((entries) => {
 
 const observerRight = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-            console.log(entry)
 
             if (entry.isIntersecting){
                 entry.target.classList.remove('translate-x-full');
