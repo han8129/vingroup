@@ -1,30 +1,43 @@
 // import '../../../node_modules/jquery/dist/jquery.js';
 let currentMouseX;
 let originalMouseX;
+var currentTranslateX = 0;
 const elementToTranslate = document.querySelector('.custom-scroll_overflow');
 
 function getMouseXDelta(event) {
-    currentMouseX = event.pageX
-    let mouseXDelta = - (originalMouseX - currentMouseX)
-    console.log(mouseXDelta);
-
-    elementToTranslate.style.setProperty("transform", "translateX(" + mouseXDelta + "px)")
+    currentMouseX = event.clientX
+    currentTranslateX += currentMouseX - originalMouseX
+    elementToTranslate.style.setProperty("transform", "translateX(" + currentTranslateX + "px)")
+    originalMouseX = currentMouseX
+    console.log(currentTranslateX)
 }
 
-elementToTranslate.addEventListener('pointerdown', (mousedown) => {
-    elementToTranslate.setPointerCapture(mousedown.pointerId)
-    getMouseXDelta(mousedown)
-    originalMouseX = mousedown.pageX
-    elementToTranslate.classList.remove('duration-500')
+const observerScroll = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            console.log("Locked in")
+            elementToTranslate.addEventListener('pointerdown', (pointerdown) => {
+                    originalMouseX = pointerdown.clientX
 
-    elementToTranslate.addEventListener('pointermove', getMouseXDelta)
+                elementToTranslate.setPointerCapture(pointerdown.pointerId)
+                elementToTranslate.classList.remove('duration-500')
+                elementToTranslate.addEventListener('pointermove', getMouseXDelta)
+                elementToTranslate.addEventListener(
+                    'pointerup',
+                    (pointerup) => {
+                        elementToTranslate.removeEventListener('pointermove', getMouseXDelta)
+                        elementToTranslate.classList.add("duration-500")
+                    },
+                    { once: true }
+                )
 
-    elementToTranslate.addEventListener(
-        'pointerup',
-        () => {
-            elementToTranslate.classList.add("duration-500")
+            })
+        } else {
             elementToTranslate.removeEventListener('pointermove', getMouseXDelta)
-        },
-        { once: true }
-    )
-})
+            elementToTranslate.classList.add("duration-500")
+            elementToTranslate.style.removeProperty("transform")
+        }
+    })
+});
+
+observerScroll.observe(elementToTranslate)
