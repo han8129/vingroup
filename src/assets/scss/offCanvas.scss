@@ -1,7 +1,7 @@
     .primary-navigation {
-        z-index: 999;
+        z-index: 20;
         position: fixed;
-        inset: 3.5rem 0 0 30%;
+        inset: 3rem 0 0 30%;
 
         padding-top: 25vh;
 
@@ -24,6 +24,6 @@
 
     @media (min-width: 768px) {
     .primary-navigation {
-	inset: 3.5rem 0 0 70%;
+	inset: 3rem 0 0 70%;
 	}
     }
