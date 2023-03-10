@@ -2,7 +2,6 @@ const toChangeBackground = document.querySelector('header')
 const toChangeZIndex = document.querySelector('img')
 const primaryNavigation = document.getElementById('primary-navigation');
 const toggleNavigation = document.querySelector('.toggle_navigation');
-console.log(toChangeZIndex)
 
 function toggleNavBar() {
 	toggleNavigation.classList.toggle('fa-bars');
@@ -18,7 +17,7 @@ function toggleNavBar() {
 	primaryNavigation.querySelectorAll('a').forEach((element) => {
 		setTimeout(() => {
 			element.classList.toggle('-translate-x-full')
-		}, 150 * i)
+		}, 125 * i)
 		++i
 	})
 }

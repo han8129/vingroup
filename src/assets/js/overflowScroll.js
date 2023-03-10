@@ -5,6 +5,9 @@ let currentTranslateX = 0;
 const elementToTranslate = document.querySelector('.custom-scroll_overflow');
 const elementToBlur = document.querySelector('.custom_to-blur')
 
+const cardsToAnimate = document.getElementsByClassName('custom_hover-card')
+let isDragged = false
+
 
 function getMouseXDelta(event) {
     let windDownWidth = window.screen.width
@@ -38,6 +41,8 @@ const observerScroll = new IntersectionObserver((entries) => {
             elementToTranslate.addEventListener('pointerdown', (pointerdown) => {
                 originalMouseX = pointerdown.clientX
 
+                isDragged = true
+
                 elementToTranslate.setPointerCapture(pointerdown.pointerId)
                 elementToTranslate.classList.remove('duration-500')
                 elementToTranslate.addEventListener('pointermove', getMouseXDelta)
@@ -46,6 +51,7 @@ const observerScroll = new IntersectionObserver((entries) => {
                     () => {
                         elementToTranslate.removeEventListener('pointermove', getMouseXDelta)
                         elementToTranslate.classList.add("duration-500")
+                        isDragged = false
                     },
                     { once: true }
                 )
@@ -61,3 +67,21 @@ const observerScroll = new IntersectionObserver((entries) => {
 });
 
 observerScroll.observe(elementToTranslate)
+
+for (let index = 0; index < cardsToAnimate.length; index++) {
+    let card = cardsToAnimate[index]
+    let toDropDown = card.querySelector("span")
+
+    card.addEventListener('pointerover', () => {
+        toDropDown.classList.remove('h-0')
+        toDropDown.classList.add('h-full')
+        toDropDown.classList.add('p-3')
+    });
+
+    card.addEventListener('pointerleave', () => {
+        if (isDragged) return
+        toDropDown.classList.add('h-0')
+        toDropDown.classList.remove('h-full')
+        toDropDown.classList.remove('p-3')
+    })
+}
