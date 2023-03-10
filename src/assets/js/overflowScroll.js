@@ -41,8 +41,9 @@ function resetElementTranslate() {
 }
 
 function getMouseXDelta(event) {
-    let rightBoundary = windDownWidth * 0.25
-    let isOverDragged = currentTranslateX > rightBoundary ? true : false
+    let boundaryLeft = - windDownWidth * 1.2
+    let boundaryRight = windDownWidth * 0.7
+    let isOverDragged = currentTranslateX > boundaryRight || currentTranslateX < boundaryLeft  ? true : false
     if (isOverDragged) {
         resetElementTranslate()
         return
