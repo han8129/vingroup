@@ -12,11 +12,11 @@
 
   <body class="flex flex-col lg:flex-row">
     <header
-      class="fixed z-50 flex items-center justify-between w-full p-2 bg-white shadow-xl lg:min-h-screen lg:w-fit md:p-4 lg:flex-col"
+      class="fixed z-50 flex items-center justify-between w-full p-2 text-gray-400 bg-white shadow-xl lg:min-h-screen lg:w-fit md:p-4 lg:flex-col"
     >
       <button type="button" class="flex items-center justify-center w-8">
         <i
-          class="text-3xl text-gray-400 toggle_navigation fa-solid fa-bars"
+          class="text-3xl toggle_navigation fa-solid fa-bars"
           aria-controls="primary-navigation"
           aria-expanded="false"
         ></i>
@@ -28,9 +28,7 @@
         alt="generic vingroup logo"
       />
 
-      <i
-        class="text-3xl text-gray-300 lg:order-last fa-solid fa-magnifying-glass"
-      ></i>
+      <i class="text-3xl lg:order-last fa-solid fa-magnifying-glass"></i>
     </header>
 
     <main class="flex-grow lg:ml-20">
@@ -44,11 +42,12 @@
             ></i>
           </button>
 
+          <div class="w-12 lg:order-first">
           <img
-            class="flex-none w-12 lg:order-first"
             src="./assets/pictures/logo.png"
             alt="generic vingroup logo"
           />
+          </div>
 
           <i
             class="text-3xl text-gray-300 lg:order-last fa-solid fa-magnifying-glass"
@@ -59,16 +58,13 @@
           <nav
             data-visible="false"
             id="primary-navigation"
-            class="flex flex-col items-center gap-2 text-white primary-navigation bg-black/70"
+          class="flex flex-col items-center gap-2 text-2xl font-bold text-red-700 bg-white lg:ml-20 font-Barlow primary-navigation"
           >
-            <a href="" class="uppercase">Trang chủ</a>
-            <a href="" class="uppercase">Trang chủ</a>
-            <a href="" class="uppercase">Trang chủ</a>
-            <a href="" class="uppercase">Trang chủ</a>
-            <a href="" class="uppercase">Trang chủ</a>
-            <a href="" class="uppercase">Trang chủ</a>
-            <a href="" class="uppercase">Trang chủ</a>
-            <a href="" class="uppercase">Trang chủ</a>
+            <a href="" class="uppercase duration-500 -translate-x-full hover:translate-x-6">Trang chủ</a>
+            <a href="" class="uppercase duration-500 -translate-x-full hover:translate-x-6">Trang chủ</a>
+            <a href="" class="uppercase duration-500 -translate-x-full hover:translate-x-6">Trang chủ</a>
+            <a href="" class="uppercase duration-500 -translate-x-full hover:translate-x-6">Trang chủ</a>
+            <a href="" class="uppercase duration-500 -translate-x-full hover:translate-x-6">Trang chủ</a>
           </nav>
         </span>
 
@@ -148,7 +144,7 @@
           class="mb-6 overflow-hidden lg:min-h-min md:grid-cols-7 md:grid md:items-center"
         >
           <section
-            class="flex flex-col col-start-1 px-4 duration-500 -translate-x-full bg-gray-100 blur-sm -z-10 md:px-8 md:row-start-1 md:row-end-1 md:col-end-8 custom_onscroll-effect"
+            class="flex flex-col col-start-1 px-4 duration-500 -translate-x-full bg-gray-100 custom_onscroll-effect blur-sm -z-10 md:px-8 md:row-start-1 md:row-end-1 md:col-end-8"
           >
             <div class="md:w-2/5 lg:w-1/4 custom_to-blur">
               <h1 class="text-4xl my-7">
@@ -184,7 +180,7 @@
           >
             <section class="flex px-4 gap-x-5">
               <article
-                class="z-10 flex flex-col my-3 bg-white border-t-4 border-red-400 rounded-b shadow-lg hover:bg-red-700 min-w-default snap-center"
+                class="z-10 flex flex-col my-3 text-red-700 duration-500 origin-top bg-white border-t-4 border-red-700 rounded-b shadow-lg hover:text-white hover:bg-red-700 min-w-default snap-center"
               >
                 <div class="flex flex-row items-center gap-2 ml-3 my-9">
                   <i class="text-4xl text-slate-400 fa-solid fa-city"></i>
@@ -193,7 +189,26 @@
                   </span>
                 </div>
 
-                <h1 class="ml-3 text-red-500 font-old">Card Title</h1>
+                <h1 class="ml-3 font-bold">Card Title</h1>
+
+                <img
+                  class="w-auto m-3 mt-0 -z-50"
+                  src="assets/pictures/vinfast-toc-20190725T021453407861.jpg"
+                  alt="fast red car"
+                />
+              </article>
+
+              <article
+                class="z-10 flex flex-col my-3 text-red-700 duration-500 origin-top bg-white border-t-4 border-red-700 rounded-b shadow-lg hover:text-white hover:bg-red-700 min-w-default snap-center"
+              >
+                <div class="flex flex-row items-center gap-2 ml-3 my-9">
+                  <i class="text-4xl text-slate-400 fa-solid fa-city"></i>
+
+                  <span class="flex-grow mt-auto border-b-2 border-slate-300">
+                  </span>
+                </div>
+
+                <h1 class="ml-3 font-bold">Card Title</h1>
 
                 <img
                   class="w-auto m-3 mt-0"
@@ -203,7 +218,7 @@
               </article>
 
               <article
-                class="flex flex-col my-3 bg-white border-t-4 border-red-400 rounded-b shadow-lg min-w-default snap-center"
+                class="z-10 flex flex-col my-3 text-red-700 duration-500 origin-top bg-white border-t-4 border-red-700 rounded-b shadow-lg hover:text-white hover:bg-red-700 min-w-default snap-center"
               >
                 <div class="flex flex-row items-center gap-2 ml-3 my-9">
                   <i class="text-4xl text-slate-400 fa-solid fa-city"></i>
@@ -212,29 +227,10 @@
                   </span>
                 </div>
 
-                <h1 class="ml-3 font-bold text-red-500">Card Title</h1>
+                <h1 class="ml-3 font-bold">Card Title</h1>
 
                 <img
-                  class="w-auto m-3 mt-0"
-                  src="assets/pictures/vinfast-toc-20190725T021453407861.jpg"
-                  alt="fast red car"
-                />
-              </article>
-
-              <article
-                class="flex flex-col my-3 bg-white border-t-4 border-red-400 rounded-b shadow-md min-w-default snap-center"
-              >
-                <div class="flex flex-row items-center gap-2 ml-3 my-9">
-                  <i class="text-4xl text-slate-400 fa-solid fa-city"></i>
-
-                  <span class="flex-grow mt-auto border-b-2 border-slate-300">
-                  </span>
-                </div>
-
-                <h1 class="ml-3 font-bold text-red-500">Card Title</h1>
-
-                <img
-                  class="w-auto m-3 mt-0"
+                  class="w-auto m-3 mt-0 hover:-z-50"
                   src="assets/pictures/vinfast-toc-20190725T021453407861.jpg"
                   alt="fast red car"
                 />
@@ -260,7 +256,7 @@
           </span>
 
           <article
-            class="flex flex-col gap-3 duration-500 -translate-x-full opacity-0 blur-sm"
+            class="flex flex-col gap-3 duration-500 -translate-x-full opacity-0 custom_onscroll-effect blur-sm"
           >
             <img
               class="container self-center"

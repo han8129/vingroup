@@ -1,29 +1,31 @@
-    .primary-navigation {
-        z-index: 20;
-        position: fixed;
-        inset: 3rem 0 0 30%;
+.primary-navigation {
+  z-index: 20;
+  position: fixed;
+  inset: 3rem 30% 0 0;
 
-        padding-top: 25vh;
+  padding-top: 25vh;
 
-        background-image: url('/src/assets/pictures/bg-menu.png');
-        background-position: 50% 90%;
-        background-size: 50%;
-        background-repeat: no-repeat;
+  background-image: url("/src/assets/pictures/bg-menu.png");
+  background-position: 50% 90%;
+  background-size: 50%;
+  background-repeat: no-repeat;
 
-	transform: translateX(100%);
-	transition: all 1s;
-    }
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}
 
-    .toggle_navigation[aria-expanded = 'true'] {
+.primary-navigation[data-visible="true"] {
+  transform: translateX(0%);
+}
 
-    }
+@media (min-width: 768px) {
+  .primary-navigation {
+    inset: 3rem 70% 0 0;
+  }
+}
 
-    .primary-navigation[data-visible='true'] {
-	    transform: translateX(0%);
-    }
-
-    @media (min-width: 768px) {
-    .primary-navigation {
-	inset: 3rem 0 0 70%;
-	}
-    }
+@media (min-width: 1024px) {
+  .primary-navigation {
+    inset: 0 70% 0 0;
+  }
+}

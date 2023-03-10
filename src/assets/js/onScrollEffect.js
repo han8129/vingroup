@@ -28,7 +28,7 @@ const observerRight = new IntersectionObserver((entries) => {
     });
 });
 
-const hiddenElements = document.querySelectorAll('.-translate-x-full');
+const hiddenElements = document.querySelectorAll('.custom_onscroll-effect');
 hiddenElements.forEach((element) => observer.observe(element));
 
 const hiddenElementsRight = document.querySelectorAll('.custom_onscroll-effect_right');

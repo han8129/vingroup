@@ -27,6 +27,7 @@ function getMouseXDelta(event) {
     } else {
         elementToBlur.classList.remove("md:blur-md")
     }
+
     elementToTranslate.style.setProperty("transform", "translateX(" + currentTranslateX + "px)")
     originalMouseX = currentMouseX
 }
