@@ -1,13 +1,20 @@
 // import '../../../node_modules/jquery/dist/jquery.js';
-let currentMouseX;
-let originalMouseX;
-let currentTranslateX = 0;
-let windDownWidth = window.screen.width;
-
 const elementToTranslate = document.querySelector(".custom-scroll_overflow");
 const elementToBlur = document.querySelector(".custom_to-blur");
 
 const cardsToAnimate = document.getElementsByClassName("custom_hover-card");
+let currentMouseX;
+let originalMouseX;
+let currentTranslateX = 0;
+let windDownWidth = window.screen.width;
+let singleCardWidth = cardsToAnimate[0].offsetWidth
+const numberOfCard = elementToTranslate.querySelector('section').childElementCount
+let cardCatalougeWidth = numberOfCard * singleCardWidth + numberOfCard * 1.25 * 16
+let lostHalfWidth
+let boundaryLeft
+const boundaryRight = singleCardWidth + 1.33
+
+let isOverDragged = false
 let isDragged = false;
 let removeDuration500 = () => elementToTranslate.classList.remove("duration-500");
 let addDuration500 = () => elementToTranslate.classList.add("duration-500");
@@ -41,14 +48,6 @@ function resetElementTranslate() {
 }
 
 function getMouseXDelta(event) {
-    let boundaryLeft = - windDownWidth * 1.2
-    let boundaryRight = windDownWidth * 0.7
-    let isOverDragged = currentTranslateX > boundaryRight || currentTranslateX < boundaryLeft  ? true : false
-    if (isOverDragged) {
-        resetElementTranslate()
-        return
-    }
-
     currentMouseX = event.clientX;
     currentTranslateX += currentMouseX - originalMouseX;
 
@@ -87,6 +86,9 @@ const observerScroll = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
             elementToTranslate.addEventListener("pointerdown", (pointerdown) => {
+                lostHalfWidth = (cardCatalougeWidth - elementToTranslate.offsetWidth)
+                boundaryLeft = (lostHalfWidth - windDownWidth) * 1.15
+
                 originalMouseX = pointerdown.clientX;
                 elementToTranslate.setPointerCapture(pointerdown.pointerId);
 
@@ -101,7 +103,17 @@ const observerScroll = new IntersectionObserver((entries) => {
                             "pointermove",
                             getMouseXDelta
                         );
+
                         addDuration500()
+
+                        isOverDragged = (currentTranslateX < boundaryLeft || currentTranslateX > boundaryRight)
+                            ? true
+                            : false
+
+                        if (isOverDragged) {
+                            console.log("Is overdrapped")
+                            resetElementTranslate()
+                        }
 
                         let pointerType = pointerup.pointerType
                         let isTouchEvent = pointerType === 'touch' ? true : false
