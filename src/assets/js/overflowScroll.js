@@ -6,18 +6,21 @@ const cardsToAnimate = document.getElementsByClassName("custom_hover-card");
 let currentMouseX;
 let originalMouseX;
 let currentTranslateX = 0;
-let windDownWidth = window.screen.width;
-let singleCardWidth = cardsToAnimate[0].offsetWidth
 const numberOfCard = elementToTranslate.querySelector('section').childElementCount
-let cardCatalougeWidth = numberOfCard * singleCardWidth + numberOfCard * 1.25 * 16
-let lostHalfWidth
-let boundaryLeft
-const boundaryRight = singleCardWidth + 1.33
 
 let isOverDragged = false
 let isDragged = false;
 let removeDuration500 = () => elementToTranslate.classList.remove("duration-500");
 let addDuration500 = () => elementToTranslate.classList.add("duration-500");
+
+let windDownWidth = window.screen.width;
+let singleCardWidth = cardsToAnimate[0].offsetWidth
+let cardCatalougeActualWidth = (numberOfCard * singleCardWidth) + (numberOfCard * 16)
+let cardCatalougeComputedWidth = elementToTranslate.offsetWidth
+let lostHalfWidth = (cardCatalougeActualWidth - cardCatalougeComputedWidth)
+let boundaryLeft = - (lostHalfWidth + singleCardWidth * 0.7)
+let boundaryRight = cardCatalougeComputedWidth * 0.5
+
 
 let addBlur = () => {
     elementToBlur.classList.add("md:blur-md");
@@ -82,13 +85,47 @@ for (let index = 0; index < cardsToAnimate.length; index++) {
     });
 }
 
+if (lostHalfWidth < cardCatalougeComputedWidth) {
+    boundaryLeft = - (windDownWidth + singleCardWidth * .7)
+}
+
+if (lostHalfWidth < 100) {
+    boundaryLeft = - (cardCatalougeActualWidth)
+    boundaryRight = cardCatalougeComputedWidth - 100
+}
+
+window.addEventListener('resize', () => {
+    console.log("Change screen")
+    windDownWidth = window.screen.width
+    cardCatalougeActualWidth = (numberOfCard * singleCardWidth) + (numberOfCard * 16)
+    cardCatalougeComputedWidth = elementToTranslate.offsetWidth
+    singleCardWidth = cardsToAnimate[0].offsetWidth
+
+    lostHalfWidth = (cardCatalougeActualWidth - cardCatalougeComputedWidth)
+
+    boundaryLeft = - (lostHalfWidth + singleCardWidth * 0.7)
+    boundaryRight = cardCatalougeComputedWidth * 0.7
+
+    if (lostHalfWidth < cardCatalougeComputedWidth) {
+        boundaryLeft = - (windDownWidth + singleCardWidth * .5)
+    }
+
+    if (lostHalfWidth < 100) {
+        boundaryLeft = - (cardCatalougeActualWidth)
+        boundaryRight = cardCatalougeComputedWidth - 100
+    }
+})
+
 const observerScroll = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
-            elementToTranslate.addEventListener("pointerdown", (pointerdown) => {
-                lostHalfWidth = (cardCatalougeWidth - elementToTranslate.offsetWidth)
-                boundaryLeft = (lostHalfWidth - windDownWidth) * 1.15
+            entry.target.classList.remove('translate-x-full');
+            entry.target.classList.remove('blur-sm');
+            entry.target.classList.remove('opacity-0');
 
+            console.log(boundaryRight)
+
+            elementToTranslate.addEventListener("pointerdown", (pointerdown) => {
                 originalMouseX = pointerdown.clientX;
                 elementToTranslate.setPointerCapture(pointerdown.pointerId);
 
@@ -111,7 +148,7 @@ const observerScroll = new IntersectionObserver((entries) => {
                             : false
 
                         if (isOverDragged) {
-                            console.log("Is overdrapped")
+                            console.log("Over dragged")
                             resetElementTranslate()
                         }
 
@@ -127,7 +164,12 @@ const observerScroll = new IntersectionObserver((entries) => {
                 );
             });
         } else {
-            resetElementTranslate()
+            if (!isDragged) {
+                entry.target.classList.add('translate-x-full');
+                entry.target.classList.add('blur-sm');
+                entry.target.classList.add('opacity-0');
+                resetElementTranslate()
+            }
         }
     });
 });

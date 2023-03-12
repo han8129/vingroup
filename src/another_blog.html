@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Another Blog about car</title>
     <style>
       @import url("./compiled/main.css");
       @import url("./compiled/tailwindcss.css");
@@ -31,7 +31,7 @@
       <i class="text-3xl lg:order-last fa-solid fa-magnifying-glass"></i>
     </header>
 
-    <main class="flex-grow lg:ml-20">
+    <main class="flex-grow lg:ml-20 lg:mt-20">
       <nav class="flex flex-col">
         <div class="flex p-2 lg:hidden w-fit md:p-4">
           <button type="button" class="">
@@ -96,23 +96,69 @@
             GIỚI THIỆU TẬP ĐOÀN
           </h6>
 
-          <span
-            class="container grid max-w-2xl grid-cols-7 m-0 g-0 bg-slate-500"
-          >
+          <span class="container grid max-w-2xl grid-cols-7 m-0 lg:mb-10">
             <span class="col-span-2 border-b-2 border-red-700"></span>
             <span class="col-span-5 border-b-2 border-slate-300"></span>
           </span>
 
-          <article
-            class="flex flex-col gap-3 duration-500 -translate-x-full opacity-0 custom_onscroll-effect blur-sm"
+          <section
+            class="max-w-screen-md mx-auto mb-6 overflow-hidden md:grid-cols-7 md:grid md:items-center"
           >
-            <img
-              class="container self-center"
-              src="assets/pictures/Landmark81banner.jpg"
-              alt=""
-            />
+            <section
+              class="flex flex-col col-start-1 px-4 duration-500 custom_onscroll-effect -z-10 md:px-8 md:row-start-1 md:row-end-1 md:col-end-8"
+            >
+              <div class="mx-auto">
+                <img
+                  src="./assets/pictures/vinfast-lux-in-sunshine.jpg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </section>
 
-            <p class="">
+            <section
+              class="md:row-start-1 md:row-end-1 md:col-end-8 lg:col-start-5 md:col-start-4"
+            >
+              <article
+                class="relative max-w-xs my-3 ml-auto bg-white rounded-b shadow-lg"
+              >
+                <span
+                  class="absolute w-full h-0 overflow-hidden duration-200 bg-red-700 border-t-4 border-red-700"
+                >
+                  <div class="z-40 flex flex-row items-center gap-2 ml-3 my-9">
+                    <i class="text-4xl text-white fa-solid fa-city"></i>
+
+                    <span class="flex-grow mt-auto border-b-2 border-white">
+                    </span>
+                  </div>
+
+                  <h1 class="text-2xl font-bold text-white">Card Title</h1>
+                </span>
+
+                <section class="p-3 border-t-4 min-w-default">
+                  <div class="z-40 flex flex-row items-center gap-2 ml-3 my-9">
+                    <i class="text-4xl text-slate-400 fa-solid fa-city"></i>
+
+                    <span class="flex-grow mt-auto border-b-2 border-slate-300">
+                    </span>
+                  </div>
+
+                  <h1 class="text-2xl font-bold text-red-700 delay-300">
+                    Card Title
+                  </h1>
+
+                  <img
+                    class="object-cover max-w-full"
+                    src="assets/pictures/vinfast-toc-20190725T021453407861.jpg"
+                    alt="fast red car"
+                  />
+                </section>
+              </article>
+            </section>
+          </section>
+
+          <article class="max-w-screen-lg mx-auto">
+            <p class="px-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
               quasi voluptatibus perspiciatis ducimus. Voluptates quidem
               repellendus natus repudiandae illum quis, aspernatur quisquam,
@@ -122,63 +168,50 @@
               reiciendis?
             </p>
           </article>
-        </section>
 
-        <section class="flex flex-col px-4 md:px-8">
-          <h1 class="my-5 text-4xl text-left text-slate-700 font-Barlow">
-            Some cool article
-          </h1>
+          <section class="grid items-center justify-center max-w-screen-lg grid-cols-2 gap-6">
+              <section class="p-3 border-t-4 border-red-700">
+                <div class="z-40 flex flex-row items-center gap-2 ml-3 my-9">
+                  <i class="text-4xl text-slate-400 fa-solid fa-city"></i>
 
-          <section
-            class="flex flex-col md:flex-row md:overflow-scroll lg:overflow-hidden md:gap-4"
-          >
-            <article class="flex flex-col max-w-lg">
-              <img
-                class="mb-2 img-fluid"
-                src="./assets/pictures/random_doctor.jpg"
-                alt="A vingroup item"
-              />
+                  <span class="flex-grow mt-auto border-b-2 border-slate-300">
+                  </span>
+                </div>
 
-              <h6 class="font-bold text-slate-700">Very Informative Title</h6>
+                <h1 class="text-2xl font-bold text-red-700 delay-300">
+                  Card Title
+                </h1>
 
-              <p class="font-light text-slate-400">date</p>
-            </article>
+                <img
+                  class=""
+                  src="assets/pictures/vinfast-toc-20190725T021453407861.jpg"
+                  alt="fast red car"
+                />
+              </section>
 
-            <article class="flex flex-col max-w-lg">
-              <img
-                class="mb-2 img-fluid"
-                src="./assets/pictures/random_doctor.jpg"
-                alt="A vingroup item"
-              />
+              <section class="p-3 border-t-4 border-red-700">
+                <div class="z-40 flex flex-row items-center gap-2 ml-3 my-9">
+                  <i class="text-4xl text-slate-400 fa-solid fa-city"></i>
 
-              <h6 class="font-bold text-slate-700">Very Informative Title</h6>
+                  <span class="flex-grow mt-auto border-b-2 border-slate-300">
+                  </span>
+                </div>
 
-              <p class="font-light text-slate-400">date</p>
-            </article>
+                <h1 class="text-2xl font-bold text-red-700 delay-300">
+                  Card Title
+                </h1>
 
-            <article class="flex flex-col max-w-lg">
-              <img
-                class="mb-2 img-fluid"
-                src="./assets/pictures/random_doctor.jpg"
-                alt="A vingroup item"
-              />
-
-              <h6 class="font-bold text-slate-700">Very Informative Title</h6>
-
-              <p class="font-light text-slate-400">date</p>
-            </article>
+                <img
+                  class=""
+                  src="assets/pictures/vinfast-toc-20190725T021453407861.jpg"
+                  alt="fast red car"
+                />
+              </section>
           </section>
-          <button
-            type="button"
-            class="my-3 text-xs font-bold text-start text-slate-500/50 font-Roboto"
-          >
-            XEM TẤT CẢ <i class="fa-solid fa-arrow-right"></i>
-          </button>
         </section>
-
       </main>
 
-      <footer class="container px-4 md:px-8">
+      <footer class="max-w-screen-lg px-4 mx-auto md:px-8">
         <span class="grid grid-cols-7 m-0 g-0">
           <span class="col-span-1"> Tập đoàn Vingroup </span>
           <span class="col-span-3"> Trang chủ Giới thiệu </span>
@@ -186,6 +219,5 @@
         </span>
       </footer>
     </main>
-    <script type="module" src="./assets/js/main.js"></script>
   </body>
 </html>
